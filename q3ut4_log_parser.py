@@ -8,7 +8,7 @@ import sys
 
 
 # Patterns
-frag_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: (.*) killed (.*) by (?!MOD_CHANGE_TEAM$|MOD_FALLING$|UT_MOD_BLED$|UT_MOD_FLAG$)(.*)$")
+frag_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: (.*) killed (.*) by (?!MOD_CHANGE_TEAM$|MOD_FALLING$|MOD_WATER$|MOD_LAVA$|UT_MOD_BLED$|UT_MOD_FLAG$)(.*)$")
 fall_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: <non-client> killed (.*) by MOD_FALLING$")
 bled_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: <non-client> killed (.*) by UT_MOD_BLED$")
 

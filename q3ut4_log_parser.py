@@ -172,7 +172,10 @@ where fragged = ?
 ''', tuple)
 		deaths_row = deaths_curs.fetchone()
 
-		ratios.append((players_row[0], float(frags_row[0]) / float(deaths_row[0])))
+		try:
+			ratios.append((players_row[0], float(frags_row[0]) / float(deaths_row[0])))
+		except ZeroDivisionError:
+			ratios.append((players_row[0], 666.0))
 
 	ratios.sort(key=lambda ratio: ratio[1], reverse=True)
 	for r in ratios:

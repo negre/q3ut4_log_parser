@@ -52,19 +52,19 @@ def frags_repartition():
 	curs.execute('''
 select fragger, fragged, count(*) as frags 
 from frags 
-group by fragger, fragged 
+group by lower(fragger), lower(fragged) 
 order by lower(fragger) asc, count(*) desc
 ''')
 	player = None
 	for row in curs:
-		if (player != row[0]):
+		if (player != row[0].lower()):
 			if (player):
 				print "    </table>"
 			print """\
     <h3>%s fragged:</h3>
     <table>\
 """ % cgi.escape(row[0])
-			player = row[0]
+			player = row[0].lower()
 
 		print """\
       <tr>
@@ -90,19 +90,19 @@ def death_repartition():
 	curs.execute('''
 select fragged, fragger, count(*) 
 from frags 
-group by fragged, fragger
+group by lower(fragged), lower(fragger)
 order by lower(fragged) asc, count(*) desc
 ''')
 	player = None
 	for row in curs:
-		if (player != row[0]):
+		if (player != row[0].lower()):
 			if (player):
 				print "    </table>"
 			print """\
     <h3>%s has been fragged by:</h3>
     <table>\
 """ % cgi.escape(row[0])
-			player = row[0]
+			player = row[0].lower()
 
 		print """\
       <tr>
@@ -129,7 +129,7 @@ def frag_ranking():
 select fragger, count(*) as frags 
 from frags 
 where fragger != fragged
-group by fragger
+group by lower(fragger)
 order by count(*) desc, lower(fragger) asc
 ''')
 	for row in curs:
@@ -148,7 +148,7 @@ def fdratio_ranking():
 	players_curs.execute('''
 select fragger
 from frags
-group by fragger
+group by lower(fragger)
 ''')
 
 	ratios = []
@@ -159,7 +159,7 @@ group by fragger
 		frags_curs.execute('''
 select count(*)
 from frags
-where fragger = ?
+where lower(fragger) = lower(?)
 	and fragger != fragged
 ''', tuple)
 		frags_row = frags_curs.fetchone()
@@ -168,7 +168,7 @@ where fragger = ?
 		deaths_curs.execute('''
 select count(*)
 from frags
-where fragged = ?
+where lower(fragged) = lower(?)
 ''', tuple)
 		deaths_row = deaths_curs.fetchone()
 

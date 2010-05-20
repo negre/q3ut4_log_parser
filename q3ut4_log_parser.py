@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
-import sys
+import cgi
 import os
 import re
 import sqlite3
+import sys
 
 
 # Patterns
@@ -62,14 +63,14 @@ order by lower(fragger) asc, count(*) desc
 			print """\
     <h3>%s fragged:</h3>
     <table>\
-""" % row[0]
+""" % cgi.escape(row[0])
 			player = row[0]
 
 		print """\
       <tr>
         <td style="width: 180px;">%s</td>
         <td><span style="background: #EFA21E;">\
-""" % row[1],
+""" % cgi.escape(row[1]),
 		for i in xrange(0, row[2]):
 			print "&nbsp;",
 		print """</span>&nbsp;%s</td>
@@ -100,14 +101,14 @@ order by lower(fragged) asc, count(*) desc
 			print """\
     <h3>%s has been fragged by:</h3>
     <table>\
-""" % row[0]
+""" % cgi.escape(row[0])
 			player = row[0]
 
 		print """\
       <tr>
         <td style="width: 180px;">%s</td>
         <td><span style="background: #EFA21E;">\
-""" % row[1],
+""" % cgi.escape(row[1]),
 		for i in xrange(0, row[2]):
 			print "&nbsp;",
 		print """</span>&nbsp;%s</td>
@@ -175,7 +176,7 @@ where fragged = ?
 
 	ratios.sort(key=lambda ratio: ratio[1], reverse=True)
 	for r in ratios:
-		print "      <li>%s (%f)</li>" % (r[0], r[1])
+		print "      <li>%s (%f)</li>" % (cgi.escape(r[0]), r[1])
 
 	print "    </ol>"
 

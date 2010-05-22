@@ -69,14 +69,17 @@ order by lower(fragger) asc, count(*) desc
 
 		print """\
       <tr>
-        <td style="width: 180px;">%s</td>
-        <td><span style="background: #EFA21E;">\
-""" % cgi.escape(row[1]),
+        <td style="width: 180px;">%s</td>\
+""" % cgi.escape(row[1])
+		
+		bar_str = '        <td><span class="ascii-bar">'
 		for i in xrange(0, row[2]):
-			print "&nbsp;",
-		print """</span>&nbsp;%s</td>
+			bar_str = ''.join([bar_str, '| '])
+		bar_str = ''.join([bar_str, '</span>&nbsp;', str(row[2]), '</td>'])
+		
+		print """%s
       </tr>\
-""" % row[2]
+""" % bar_str
 	print "    </table>"
 
 
@@ -108,13 +111,16 @@ order by lower(fragged) asc, count(*) desc
 		print """\
       <tr>
         <td style="width: 180px;">%s</td>
-        <td><span style="background: #EFA21E;">\
-""" % cgi.escape(row[1]),
+""" % cgi.escape(row[1])
+		
+		bar_str = '        <td><span class="ascii-bar">'
 		for i in xrange(0, row[2]):
-			print "&nbsp;",
-		print """</span>&nbsp;%s</td>
+			bar_str = ''.join([bar_str, '| '])
+		bar_str = ''.join([bar_str, '</span>&nbsp;', str(row[2]), '</td>'])
+		
+		print """%s
       </tr>\
-""" % row[2]
+""" % bar_str
 	print "    </table>"
 
 
@@ -210,6 +216,11 @@ def main():
     <style>
       h2 {
         border-bottom: 1px solid grey;
+      }
+      span.ascii-bar {
+        background: #EFA21E;
+        color: #EFA21E;
+		font-size: xx-small;
       }
     </style>
   </head>

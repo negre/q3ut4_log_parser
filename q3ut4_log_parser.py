@@ -125,30 +125,10 @@ order by lower(fragged) asc, count(*) desc
 
 
 #
-def frag_ranking():
-	global db_conn
-	print """\
-    <a name="#3"><h2>Frag-based ranking</h2></a>
-    <ol>\
-"""
-	curs = db_conn.cursor()
-	curs.execute('''
-select fragger, count(*) as frags 
-from frags 
-where fragger != fragged
-group by lower(fragger)
-order by count(*) desc, lower(fragger) asc
-''')
-	for row in curs:
-		print "      <li>%s (%s)</li>" % (row[0], row[1])
-	print "    </ol>"
-
-
-#
 def fdratio_ranking():
 	global db_conn
 	print """\
-    <a name="#4"><h2>Frag/death ratio-based ranking</h2></a>
+    <a name="4"><h2>Frag/death ratio-based ranking</h2></a>
     <ol>\
 """
 	players_curs = db_conn.cursor()
@@ -191,6 +171,26 @@ where lower(fragged) = lower(?)
 	print "    </ol>"
 
 
+#
+def frag_ranking():
+	global db_conn
+	print """\
+    <a name="3"><h2>Frag-based ranking</h2></a>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select fragger, count(*) as frags 
+from frags 
+where fragger != fragged
+group by lower(fragger)
+order by count(*) desc, lower(fragger) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
+
 # Main function
 def main():
 	global db_conn
@@ -230,15 +230,15 @@ def main():
     <ul>Available stats:
       <li><a href="#1">Frags repartition per player</a></li>
       <li><a href="#2">Deaths repartition per player</a></li>
-      <li><a href="#3">Frag-based ranking</a></li>
-      <li><a href="#4">Frags/Deaths ratio-based ranking</a></li>
+      <li><a href="#3">Frags/Deaths ratio-based ranking</a></li>
+      <li><a href="#4">Frag-based ranking</a></li>
     </ul>\
 """
 
 	frags_repartition()
 	death_repartition()
-	frag_ranking()
 	fdratio_ranking()
+	frag_ranking()
 
 	db_conn.close()
 

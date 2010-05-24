@@ -249,7 +249,10 @@ group by lower(player)
 order by sum(stop-start) desc
 ''')
 	for row in curs:
-		print "      <li>%s (%i:%i:%i)</li>" % (row[0], int(row[1]) / 3600, int(row[1]) / 60, int(row[1]) % 60)
+		hours = int(row[1]) / 3600
+		minutes = (int(row[1]) - hours*3600) / 60
+		seconds = (int(row[1]) - minutes*60) % 60
+		print "      <li>%s (%i:%i:%i)</li>" % (row[0], hours, minutes, seconds)
 	print "    </ol>"
 
 

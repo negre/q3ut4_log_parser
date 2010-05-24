@@ -9,9 +9,10 @@ import sys
 
 
 # Patterns
-frag_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: (?!<world>)(.*) killed (.*) by (?!MOD_CHANGE_TEAM$|MOD_FALLING$|MOD_WATER$|MOD_LAVA$|UT_MOD_BLED$|UT_MOD_FLAG$)(.*)$")
-fall_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: <non-client> killed (.*) by MOD_FALLING$")
-bled_prog = re.compile(r"^[ ]*[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: <non-client> killed (.*) by UT_MOD_BLED$")
+frag_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: (?!<world>)(.*) killed (.*) by (?!MOD_CHANGE_TEAM$|MOD_FALLING$|MOD_WATER$|MOD_LAVA$|UT_MOD_BLED$|UT_MOD_FLAG$)(.*)$")
+playerjoins_prog = re.compile(r'^ *([0-9]+):([0-9]+) ClientUserinfo: ([1-9]+) (.*)$')
+playerquits_prog = re.compile(r"^ *([0-9]+):([0-9]+) ClientDisconnect: ([1-9]+)$")
+endgame_prog = re.compile(r"^ *([0-9]+):([0-9]+) ShutdownGame:$")
 
 # Database connection
 db_conn = None
@@ -22,25 +23,67 @@ def create_db():
 	global db_conn
 	db_conn = sqlite3.connect(':memory:')
 	db_conn.execute('create table frags (fragger text, fragged text)')
+	db_conn.execute('create table games (player text, start integer, stop integer)')
 	db_conn.commit()
 
 
 # Read the log and populate db
 def parse_log(logpath):
 	global db_conn
+
+	idd = {}
 	logf = open(logpath, 'r')
+
 	while 1:
 		logline = logf.readline()
 		if (not logline):
 			break
 
 		m = frag_prog.match(logline)
-		if (m != None):
-			# Update the frags
-			frag_tuple = (m.group(1), m.group(2))
+		if (m):
+			# Update the frags table
 			db_conn.execute(
 					'''insert into frags values (?, ?)''', 
-					frag_tuple)
+					(m.group(1), m.group(2)))
+			continue
+
+		m = playerjoins_prog.match(logline)
+		if (m):
+			if (m.group(3) not in idd):
+				playerinfos = re.split(r"\\", m.group(4))
+				playername = playerinfos[playerinfos.index('name')+1]
+				time = int(m.group(1))*60 + int(m.group(2))
+				# Update the players id dictionary
+				idd[m.group(3)] = playername
+				# And the player games table
+				db_conn.execute(
+					'''insert into games values (?, ?, -1)''',
+					(playername, time))
+			continue
+
+		m = playerquits_prog.match(logline)
+		if (m):
+			time = int(m.group(1))*60 + int(m.group(2))
+			# Update the games table
+			db_conn.execute(
+				'''update games set stop=? where player = ? and stop = -1''',
+				(time, idd[m.group(3)]))
+			# And the players id dictionary
+			del idd[m.group(3)]
+			continue
+
+		m = endgame_prog.match(logline)
+		if (m):
+			time = int(m.group(1))*60 + int(m.group(2))
+			# New game, make everybody quits
+			for k,v in idd.iteritems():
+				db_conn.execute(
+					'''update games set stop=? where player = ? and stop = -1''',
+					(time, v))
+				pass
+			idd = {}
+			continue
+
 	db_conn.commit()
 	logf.close()
 
@@ -110,7 +153,7 @@ order by lower(fragged) asc, count(*) desc
 
 		print """\
       <tr>
-        <td style="width: 180px;">%s</td>
+        <td style="width: 180px;">%s</td>\
 """ % cgi.escape(row[1])
 		
 		bar_str = '        <td><span class="ascii-bar">'

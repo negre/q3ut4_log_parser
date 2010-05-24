@@ -305,7 +305,7 @@ def main():
 	death_repartition()
 	fdratio_ranking()
 	frag_ranking()
-	presence_ranking()
+	#presence_ranking() # Buggued!
 
 	db_conn.close()
 

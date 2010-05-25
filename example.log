@@ -1,0 +1,2193 @@
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_uptown\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:00 Warmup:
+  0:24 ClientConnect: 0
+  0:24 ClientUserinfo: 0 \ip\194.199.23.151:27960\challenge\105485395\qport\205\protocol\68\name\ARP\rate\8000\cg_predictitems\0\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B
+  0:24 ClientUserinfoChanged: 0 n\ARP\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:45 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:45 ClientUserinfoChanged: 0 n\ARP\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:45 ClientBegin: 0
+  0:47 Kill: 0 0 10: ARP killed ARP by MOD_CHANGE_TEAM
+  0:47 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:47 ClientUserinfoChanged: 0 n\ARP\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:47 ClientBegin: 0
+  1:04 Item: 0 team_CTF_redflag
+  1:24 Flag: 0 2: team_CTF_blueflag
+  3:31 ClientConnect: 1
+  3:31 ClientUserinfo: 1 \ip\194.199.23.170:27960\challenge\-1990960122\qport\394\protocol\68\name\GRANSAC\rate\8000\cg_predictitems\0\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7
+  3:31 ClientUserinfoChanged: 1 n\GRANSAC\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  3:45 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAORWA\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+  3:45 ClientUserinfoChanged: 1 n\GRANSAC\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\255
+  3:45 ClientBegin: 1
+  3:51 Kill: 1 1 10: GRANSAC killed GRANSAC by MOD_CHANGE_TEAM
+  3:51 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAORWA\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+  3:51 ClientUserinfoChanged: 1 n\GRANSAC\t\1\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+  3:51 ClientBegin: 1
+  4:02 say: 1 GRANSAC: here
+  4:05 ------------------------------------------------------------
+  4:05 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_uptown\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  4:22 Item: 0 team_CTF_redflag
+  4:31 Item: 1 team_CTF_blueflag
+  4:39 ClientConnect: 2
+  4:39 ClientUserinfo: 2 \ip\194.199.23.149:27960\challenge\-782683159\qport\934\protocol\68\name\Hank Moody\rate\8000\cg_predictitems\0\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4
+  4:39 ClientUserinfoChanged: 2 n\HankMoody\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  4:49 ClientConnect: 3
+  4:49 ClientUserinfo: 3 \ip\194.199.21.173:27960\challenge\147262933\qport\28623\protocol\68\name\Maud\rate\8000\cg_predictitems\0\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B
+  4:49 ClientUserinfoChanged: 3 n\Maud\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  4:49 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FLAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  4:49 ClientUserinfoChanged: 2 n\HankMoody\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  4:49 ClientBegin: 2
+  4:52 Kill: 2 2 10: HankMoody killed HankMoody by MOD_CHANGE_TEAM
+  4:52 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FLAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  4:52 ClientUserinfoChanged: 2 n\HankMoody\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\255\a2\0
+  4:52 ClientBegin: 2
+  5:04 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+  5:04 ClientUserinfoChanged: 3 n\Maud\t\3\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  5:04 ClientBegin: 3
+  5:15 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  5:16 Kill: 3 3 10: Maud killed Maud by MOD_CHANGE_TEAM
+  5:16 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+  5:16 ClientUserinfoChanged: 3 n\Maud\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  5:16 ClientBegin: 3
+  5:37 sayteam: 1 GRANSAC: go
+  5:42 sayteam: 1 GRANSAC: medic
+  5:56 Kill: 2 3 19: HankMoody killed Maud by UT_MOD_LR300
+  5:56 Item: 2 ut_weapon_beretta
+  5:56 Item: 2 ut_weapon_mp5k
+  6:15 Kill: 2 1 19: HankMoody killed GRANSAC by UT_MOD_LR300
+  6:15 Flag: 1 0: team_CTF_blueflag
+  6:16 Flag: 2 1: team_CTF_blueflag
+  6:16 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  6:20 Item: 3 ut_weapon_grenade_he
+  6:20 Item: 3 ut_weapon_g36
+  6:20 Item: 3 ut_weapon_beretta
+  6:27 Flag: 0 2: team_CTF_blueflag
+  6:57 Kill: 3 2 23: Maud killed HankMoody by UT_MOD_BLED
+  7:03 Item: 3 team_CTF_blueflag
+  7:04 Kill: 2 3 19: HankMoody killed Maud by UT_MOD_LR300
+  7:04 Flag: 3 0: team_CTF_blueflag
+  7:05 Flag: 2 1: team_CTF_blueflag
+  7:09 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  7:11 Item: 0 team_CTF_redflag
+  7:12 Item: 1 ut_weapon_beretta
+  7:17 Item: 1 team_CTF_blueflag
+  7:17 Item: 1 ut_weapon_mp5k
+  7:20 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  7:24 Item: 1 ut_weapon_g36
+  7:48 Kill: 0 3 23: ARP killed Maud by UT_MOD_BLED
+  8:04 Kill: 2 3 19: HankMoody killed Maud by UT_MOD_LR300
+  8:12 ClientConnect: 4
+  8:12 ClientUserinfo: 4 \ip\194.199.23.173:27960\challenge\2060129804\qport\425\protocol\68\name\CLeOpatra\rate\8000\cg_predictitems\0\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019
+  8:12 ClientUserinfoChanged: 4 n\CLeOpatra\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  8:19 Flag: 1 0: team_CTF_blueflag
+  8:20 Item: 1 team_CTF_blueflag
+  8:22 Kill: 2 3 19: HankMoody killed Maud by UT_MOD_LR300
+  8:22 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 0 78\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  8:22 ClientUserinfoChanged: 4 n\CLeOpatra\t\3\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\78
+  8:22 ClientBegin: 4
+  8:22 Item: 2 ut_weapon_mp5k
+  8:22 Item: 2 ut_weapon_beretta
+  8:36 Item: 3 ut_weapon_g36
+  8:47 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  9:03 Flag: 0 0: team_CTF_redflag
+  9:05 Item: 2 team_CTF_redflag
+  9:08 Flag: 1 0: team_CTF_blueflag
+  9:17 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+  9:17 Flag: 2 0: team_CTF_redflag
+  9:17 Kill: 0 2 39: <non-client> killed HankMoody by UT_MOD_FLAG
+  9:27 Item: 0 team_CTF_redflag
+  9:27 sayteam: 1 GRANSAC: inc
+  9:32 Item: 3 team_CTF_blueflag
+  9:35 Kill: 2 3 19: HankMoody killed Maud by UT_MOD_LR300
+  9:35 Flag: 3 0: team_CTF_blueflag
+  9:36 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  9:36 ClientUserinfoChanged: 4 n\CLeOpatra\t\3\r\1\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\0
+  9:37 Item: 2 ut_weapon_beretta
+  9:37 Item: 2 ut_weapon_mp5k
+  9:38 Flag: 2 1: team_CTF_blueflag
+  9:51 Flag: 0 2: team_CTF_blueflag
+  9:52 Kill: 4 4 10: CLeOpatra killed CLeOpatra by MOD_CHANGE_TEAM
+  9:52 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  9:52 ClientUserinfoChanged: 4 n\CLeOpatra\t\2\r\0\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\0
+  9:52 ClientBegin: 4
+ 10:10 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 10:17 Item: 4 ut_weapon_beretta
+ 10:18 Item: 2 ut_weapon_lr
+ 10:19 Item: 2 ut_weapon_mp5k
+ 10:40 ClientConnect: 5
+ 10:40 ClientUserinfo: 5 \ip\194.199.23.183:27960\challenge\-1475442671\qport\772\protocol\68\name\seasick steve\rate\8000\cg_predictitems\0\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\0956C248C30103E6BBF9D661FBFBC37C
+ 10:40 ClientUserinfoChanged: 5 n\seasicksteve\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+ 10:43 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 10:49 Kill: 1 0 14: GRANSAC killed ARP by UT_MOD_BERETTA
+ 10:58 Item: 4 team_CTF_redflag
+ 11:00 ClientConnect: 6
+ 11:00 ClientUserinfo: 6 \ip\194.199.23.184:27960\challenge\-492356553\qport\0\protocol\68\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\g_gametype\3\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIOUAA\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+ 11:00 ClientUserinfoChanged: 6 n\mazhe\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 11:05 ClientUserinfo: 5 \ip\194.199.23.183:27960\name\seasick steve\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FeAQVXA\teamtask\0\cl_guid\0956C248C30103E6BBF9D661FBFBC37C\weapmodes\00000110220000020002
+ 11:05 ClientUserinfoChanged: 5 n\seasicksteve\t\3\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 11:05 ClientBegin: 5
+ 11:09 Kill: 5 5 10: seasicksteve killed seasicksteve by MOD_CHANGE_TEAM
+ 11:09 ClientUserinfo: 5 \ip\194.199.23.183:27960\name\seasick steve\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FeAQVXA\teamtask\0\cl_guid\0956C248C30103E6BBF9D661FBFBC37C\weapmodes\00000110220000020002
+ 11:09 ClientUserinfoChanged: 5 n\seasicksteve\t\1\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 11:09 ClientBegin: 5
+ 11:18 ClientUserinfo: 6 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\g_gametype\7\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIOUAA\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+ 11:18 ClientUserinfoChanged: 6 n\mazhe\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 11:18 ClientBegin: 6
+ 11:19 Kill: 6 6 10: mazhe killed mazhe by MOD_CHANGE_TEAM
+ 11:19 ClientUserinfo: 6 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\g_gametype\7\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIOUAA\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+ 11:19 ClientUserinfoChanged: 6 n\mazhe\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 11:19 ClientBegin: 6
+ 11:23 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 11:24 Item: 3 ut_weapon_beretta
+ 11:29 Kill: 5 0 38: seasicksteve killed ARP by UT_MOD_M4
+ 11:29 ClientUserinfo: 6 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\g_gametype\7\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FLAAVRX\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+ 11:29 ClientUserinfoChanged: 6 n\mazhe\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 11:36 Item: 4 ut_weapon_mp5k
+ 11:38 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 11:38 Item: 6 ut_weapon_grenade_he
+ 11:43 Kill: 0 5 23: ARP killed seasicksteve by UT_MOD_BLED
+ 11:47 Item: 4 ut_weapon_mp5k
+ 11:47 Kill: 1 2 14: GRANSAC killed HankMoody by UT_MOD_BERETTA
+ 11:51 Kill: 6 0 19: mazhe killed ARP by UT_MOD_LR300
+ 11:52 Item: 3 ut_weapon_g36
+ 11:54 Item: 3 ut_weapon_grenade_he
+ 11:56 Item: 4 ut_weapon_beretta
+ 11:56 Item: 4 ut_weapon_g36
+ 12:03 Item: 5 ut_weapon_beretta
+ 12:04 Item: 5 ut_weapon_m4
+ 12:05 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 12:09 Kill: 6 0 19: mazhe killed ARP by UT_MOD_LR300
+ 12:10 Item: 2 ut_weapon_lr
+ 12:14 Flag: 4 2: team_CTF_blueflag
+ 12:17 Item: 2 ut_weapon_beretta
+ 12:19 Kill: 0 5 20: ARP killed seasicksteve by UT_MOD_G36
+ 12:19 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 12:20 Item: 0 ut_weapon_grenade_smoke
+ 12:21 Item: 0 ut_weapon_deagle
+ 12:21 Item: 0 ut_weapon_g36
+ 12:21 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 12:38 Item: 3 team_CTF_blueflag
+ 12:40 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 12:40 Item: 3 ut_weapon_beretta
+ 12:40 Item: 3 ut_weapon_g36
+ 12:40 Item: 3 ut_weapon_mp5k
+ 12:42 Kill: 0 5 20: ARP killed seasicksteve by UT_MOD_G36
+ 12:45 Kill: 2 3 14: HankMoody killed Maud by UT_MOD_BERETTA
+ 12:45 Flag: 3 0: team_CTF_blueflag
+ 12:45 Item: 2 ut_weapon_beretta
+ 12:45 Item: 2 ut_weapon_mp5k
+ 12:46 Flag: 2 1: team_CTF_blueflag
+ 12:47 Kill: 1 0 20: GRANSAC killed ARP by UT_MOD_G36
+ 12:48 Kill: 6 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 12:53 Item: 1 ut_weapon_g36
+ 12:54 Item: 4 ut_weapon_g36
+ 12:54 Item: 1 ut_weapon_grenade_smoke
+ 13:01 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 13:09 Kill: 2 1 19: HankMoody killed GRANSAC by UT_MOD_LR300
+ 13:10 Item: 2 ut_weapon_beretta
+ 13:20 Item: 0 ut_weapon_g36
+ 13:24 Kill: 0 3 20: ARP killed Maud by UT_MOD_G36
+ 13:28 Item: 5 team_CTF_blueflag
+ 13:28 Kill: 2 1 19: HankMoody killed GRANSAC by UT_MOD_LR300
+ 13:31 ClientConnect: 7
+ 13:31 ClientUserinfo: 7 \ip\194.199.23.148:27960\challenge\874518250\qport\286\protocol\68\name\ChickMagnet\rate\8000\cg_predictitems\0\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\athena/cobra_w\model\athena/desert_w\snaps\20\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE
+ 13:31 ClientUserinfoChanged: 7 n\ChickMagnet\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+ 13:36 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 13:37 Item: 1 ut_weapon_g36
+ 13:40 Item: 2 ut_weapon_beretta
+ 13:40 Item: 2 team_CTF_redflag
+ 13:40 Item: 2 ut_weapon_mp5k
+ 13:45 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\athena/cobra_w\model\athena/desert_w\snaps\20\gear\FeAAWRT\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+ 13:45 ClientUserinfoChanged: 7 n\ChickMagnet\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 13:45 ClientBegin: 7
+ 13:45 Item: 1 ut_weapon_beretta
+ 13:49 Kill: 2 5 19: HankMoody killed seasicksteve by UT_MOD_LR300
+ 13:49 Flag: 5 0: team_CTF_blueflag
+ 13:50 Flag: 2 1: team_CTF_blueflag
+ 13:51 Item: 2 ut_weapon_grenade_smoke
+ 13:53 Item: 4 ut_weapon_beretta
+ 13:57 ClientDisconnect: 7
+ 13:59 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 13:59 Flag: 2 0: team_CTF_redflag
+ 13:59 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 14:03 Item: 4 team_CTF_redflag
+ 14:05 Exit: Timelimit hit.
+ 14:05 red:0  blue:3
+ 14:05 score: 53  ping: 7  client: 2 HankMoody
+ 14:05 score: 47  ping: 10  client: 0 ARP
+ 14:05 score: 21  ping: 1  client: 4 CLeOpatra
+ 14:05 score: 9  ping: 1  client: 1 GRANSAC
+ 14:05 score: 8  ping: 1  client: 3 Maud
+ 14:05 score: 3  ping: 9  client: 6 mazhe
+ 14:05 score: 1  ping: 3  client: 5 seasicksteve
+ 14:18 say: 1 GRANSAC: abused
+ 14:21 ------------------------------------------------------------
+ 14:21 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_uptown\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+ 14:21 Kill: 0 0 10: ARP killed ARP by MOD_CHANGE_TEAM
+ 14:21 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 14:21 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 14:21 ClientBegin: 0
+ 14:21 Kill: 4 4 10: CLeOpatra killed CLeOpatra by MOD_CHANGE_TEAM
+ 14:21 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+ 14:21 ClientUserinfoChanged: 4 n\CLeOpatra\t\1\r\1\tl\0\f0\shades\f1\ninja\f2\\a0\0\a1\255\a2\0
+ 14:21 ClientBegin: 4
+ 14:21 Kill: 1 1 10: GRANSAC killed GRANSAC by MOD_CHANGE_TEAM
+ 14:21 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAORWA\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+ 14:21 ClientUserinfoChanged: 1 n\GRANSAC\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+ 14:21 ClientBegin: 1
+ 14:21 Kill: 5 5 10: seasicksteve killed seasicksteve by MOD_CHANGE_TEAM
+ 14:21 ClientUserinfo: 5 \ip\194.199.23.183:27960\name\seasick steve\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FeAQVXA\teamtask\0\cl_guid\0956C248C30103E6BBF9D661FBFBC37C\weapmodes\00000110220000020002
+ 14:21 ClientUserinfoChanged: 5 n\seasicksteve\t\2\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 14:21 ClientBegin: 5
+ 14:22 Kill: 2 2 10: HankMoody killed HankMoody by MOD_CHANGE_TEAM
+ 14:22 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FLAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+ 14:22 ClientUserinfoChanged: 2 n\HankMoody\t\1\r\2\tl\0\f0\ninja\f1\goggles\f2\\a0\255\a1\255\a2\0
+ 14:22 ClientBegin: 2
+ 14:22 Kill: 6 6 10: mazhe killed mazhe by MOD_CHANGE_TEAM
+ 14:22 ClientUserinfo: 6 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\g_gametype\7\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FLAAVRX\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+ 14:22 ClientUserinfoChanged: 6 n\mazhe\t\2\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+ 14:22 ClientBegin: 6
+ 14:22 Kill: 3 3 10: Maud killed Maud by MOD_CHANGE_TEAM
+ 14:22 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+ 14:22 ClientUserinfoChanged: 3 n\Maud\t\2\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+ 14:22 ClientBegin: 3
+ 14:35 ------------------------------------------------------------
+ 14:35 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_uptown\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+ 14:41 ClientConnect: 7
+ 14:41 ClientUserinfo: 7 \ip\194.199.23.148:27960\challenge\874518250\qport\868\protocol\68\name\ChickMagnet\rate\8000\cg_predictitems\0\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE
+ 14:41 ClientUserinfoChanged: 7 n\ChickMagnet\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+ 14:50 Kill: 2 5 19: HankMoody killed seasicksteve by UT_MOD_LR300
+ 14:50 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+ 14:50 ClientUserinfoChanged: 7 n\ChickMagnet\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 14:50 ClientBegin: 7
+ 14:50 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 14:51 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 14:53 Kill: 7 7 10: ChickMagnet killed ChickMagnet by MOD_CHANGE_TEAM
+ 14:53 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+ 14:53 ClientUserinfoChanged: 7 n\ChickMagnet\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 14:53 ClientBegin: 7
+ 14:55 Kill: 0 6 20: ARP killed mazhe by UT_MOD_G36
+ 14:58 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 15:00 Kill: 2 3 23: HankMoody killed Maud by UT_MOD_BLED
+ 15:03 say: 7 ChickMagnet: heeeere :)
+ 15:06 Kill: 6 0 19: mazhe killed ARP by UT_MOD_LR300
+ 15:08 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 15:10 Item: 5 ut_weapon_beretta
+ 15:14 Item: 1 ut_weapon_g36
+ 15:19 Item: 6 ut_weapon_grenade_he
+ 15:19 Item: 6 ut_weapon_beretta
+ 15:20 Item: 5 ut_weapon_mp5k
+ 15:21 Item: 6 ut_weapon_beretta
+ 15:22 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 15:23 Kill: 0 6 20: ARP killed mazhe by UT_MOD_G36
+ 15:30 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 15:33 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 15:41 Kill: 7 5 38: ChickMagnet killed seasicksteve by UT_MOD_M4
+ 15:57 Kill: 5 2 38: seasicksteve killed HankMoody by UT_MOD_M4
+ 16:00 Kill: 1 0 20: GRANSAC killed ARP by UT_MOD_G36
+ 16:03 Kill: 1 7 14: GRANSAC killed ChickMagnet by UT_MOD_BERETTA
+ 16:05 Item: 4 ut_weapon_beretta
+ 16:06 Kill: 4 1 20: CLeOpatra killed GRANSAC by UT_MOD_G36
+ 16:06 Kill: 6 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 16:10 Item: 6 ut_weapon_beretta
+ 16:10 Item: 6 ut_weapon_lr
+ 16:11 ClientConnect: 8
+ 16:11 ClientUserinfo: 8 \ip\194.199.23.175:27960\challenge\798807538\qport\530\protocol\68\name\Kitty\rate\8000\cg_predictitems\0\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9
+ 16:11 ClientUserinfoChanged: 8 n\Kitty\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+ 16:21 Item: 1 ut_weapon_g36
+ 16:22 Item: 1 ut_weapon_beretta
+ 16:22 ClientUserinfo: 8 \ip\194.199.23.175:27960\name\Kitty\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAARWA\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9\weapmodes\00000110220000020002
+ 16:22 ClientUserinfoChanged: 8 n\Kitty\t\3\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+ 16:22 ClientBegin: 8
+ 16:24 Kill: 6 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 16:24 Kill: 2 6 19: HankMoody killed mazhe by UT_MOD_LR300
+ 16:25 Item: 2 ut_weapon_beretta
+ 16:25 Item: 2 ut_weapon_lr
+ 16:27 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 16:30 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 16:30 Item: 2 ut_weapon_beretta
+ 16:35 Kill: 8 8 10: Kitty killed Kitty by MOD_CHANGE_TEAM
+ 16:35 ClientUserinfo: 8 \ip\194.199.23.175:27960\name\Kitty\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAARWA\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9\weapmodes\00000110220000020002
+ 16:35 ClientUserinfoChanged: 8 n\Kitty\t\2\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+ 16:35 ClientBegin: 8
+ 16:37 Item: 6 ut_weapon_grenade_he
+ 16:40 Kill: 0 6 20: ARP killed mazhe by UT_MOD_G36
+ 16:43 sayteam: 1 GRANSAC: YEAH KITTY :P
+ 16:46 Kill: 5 0 38: seasicksteve killed ARP by UT_MOD_M4
+ 16:47 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 16:51 say: 8 Kitty: yeah
+ 16:53 Item: 6 ut_weapon_beretta
+ 16:55 Kill: 8 4 20: Kitty killed CLeOpatra by UT_MOD_G36
+ 16:55 Item: 8 ut_weapon_grenade_he
+ 16:55 Item: 8 ut_weapon_g36
+ 16:59 say: 7 ChickMagnet: dou tes balles passent et pas les miennes? -_-
+ 17:02 Kill: 2 5 19: HankMoody killed seasicksteve by UT_MOD_LR300
+ 17:05 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 17:06 Item: 2 ut_weapon_grenade_smoke
+ 17:07 Kill: 2 6 19: HankMoody killed mazhe by UT_MOD_LR300
+ 17:17 Kill: 0 3 20: ARP killed Maud by UT_MOD_G36
+ 17:19 Item: 7 ut_weapon_beretta
+ 17:21 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 17:22 Kill: 6 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 17:26 say: 7 ChickMagnet: :P
+ 17:27 Kill: 5 0 38: seasicksteve killed ARP by UT_MOD_M4
+ 17:38 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 17:40 Item: 1 team_CTF_redflag
+ 17:43 Kill: 3 0 20: Maud killed ARP by UT_MOD_G36
+ 17:45 Kill: 8 2 20: Kitty killed HankMoody by UT_MOD_G36
+ 17:49 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 17:49 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 18:00 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 18:03 Flag: 1 2: team_CTF_blueflag
+ 18:06 Item: 2 ut_weapon_beretta
+ 18:08 Item: 7 ut_weapon_grenade_he
+ 18:09 Kill: 5 7 38: seasicksteve killed ChickMagnet by UT_MOD_M4
+ 18:10 Kill: 1 0 20: GRANSAC killed ARP by UT_MOD_G36
+ 18:14 Item: 5 ut_weapon_m4
+ 18:14 Item: 5 ut_weapon_beretta
+ 18:21 Kill: 2 5 19: HankMoody killed seasicksteve by UT_MOD_LR300
+ 18:22 Item: 2 ut_weapon_grenade_smoke
+ 18:24 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 18:25 Item: 0 ut_weapon_g36
+ 18:27 Kill: 3 0 20: Maud killed ARP by UT_MOD_G36
+ 18:29 Item: 7 ut_weapon_m4
+ 18:30 Item: 7 ut_weapon_beretta
+ 18:35 Kill: 6 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 18:35 Item: 6 ut_weapon_grenade_smoke
+ 18:36 Kill: 6 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 18:36 Item: 6 ut_weapon_beretta
+ 18:40 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 18:43 Kill: 1 0 14: GRANSAC killed ARP by UT_MOD_BERETTA
+ 18:45 say: 1 GRANSAC: :p
+ 18:45 Item: 4 ut_weapon_grenade_smoke
+ 18:45 Item: 4 ut_weapon_beretta
+ 18:55 Item: 6 ut_weapon_lr
+ 18:55 Kill: 5 0 38: seasicksteve killed ARP by UT_MOD_M4
+ 18:56 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 18:56 Item: 4 ut_weapon_beretta
+ 18:58 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 19:00 Item: 5 ut_weapon_grenade_he
+ 19:01 Item: 4 ut_weapon_beretta
+ 19:04 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 19:05 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 19:07 Item: 4 team_CTF_blueflag
+ 19:08 Item: 3 ut_weapon_grenade_he
+ 19:08 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 19:11 say: 7 ChickMagnet: ....
+ 19:15 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 19:15 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 19:16 Item: 8 team_CTF_redflag
+ 19:17 Item: 6 ut_weapon_lr
+ 19:21 ClientConnect: 9
+ 19:21 ClientUserinfo: 9 \ip\194.199.21.75:27960\challenge\-15578786\qport\396\protocol\68\name\Dr. MoMo\rate\8000\cg_predictitems\0\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78
+ 19:21 ClientUserinfoChanged: 9 n\Dr.MoMo\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+ 19:21 Item: 6 ut_weapon_lr
+ 19:23 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 19:23 Flag: 8 0: team_CTF_redflag
+ 19:24 Flag: 7 1: team_CTF_redflag
+ 19:29 Kill: 0 5 20: ARP killed seasicksteve by UT_MOD_G36
+ 19:30 say: 8 Kitty: pu de balles
+ 19:31 Item: 6 ut_weapon_beretta
+ 19:31 Item: 6 ut_weapon_grenade_smoke
+ 19:32 Kill: 6 0 19: mazhe killed ARP by UT_MOD_LR300
+ 19:32 Item: 6 ut_weapon_grenade_he
+ 19:34 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GMAOUWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+ 19:34 ClientUserinfoChanged: 9 n\Dr.MoMo\t\3\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 19:34 ClientBegin: 9
+ 19:35 Kill: 9 9 10: Dr.MoMo killed Dr.MoMo by MOD_CHANGE_TEAM
+ 19:35 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GMAOUWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+ 19:35 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 19:35 ClientBegin: 9
+ 19:35 Item: 4 ut_weapon_g36
+ 19:37 Item: 7 ut_weapon_grenade_he
+ 19:37 Item: 6 ut_weapon_beretta
+ 19:37 Kill: 6 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 19:38 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 19:39 say: 0 ARP: ouais ouais
+ 19:41 Item: 3 ut_weapon_g36
+ 19:41 Item: 3 ut_weapon_grenade_he
+ 19:41 Item: 3 ut_weapon_beretta
+ 19:45 Flag: 4 2: team_CTF_redflag
+ 19:46 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 19:52 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 19:54 Item: 7 ut_weapon_grenade_he
+ 19:54 Kill: 6 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+ 19:55 Item: 0 ut_weapon_deagle
+ 19:57 Kill: 7 5 38: ChickMagnet killed seasicksteve by UT_MOD_M4
+ 19:57 say: 1 GRANSAC: shit
+ 19:57 Item: 7 ut_weapon_grenade_smoke
+ 19:57 Item: 7 ut_weapon_beretta
+ 19:57 Item: 7 ut_weapon_m4
+ 20:01 Kill: 0 6 6: <non-client> killed mazhe by MOD_FALLING
+ 20:02 Item: 0 ut_weapon_deagle
+ 20:02 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 20:02 Item: 8 ut_weapon_grenade_he
+ 20:02 Item: 8 ut_weapon_grenade_smoke
+ 20:12 Kill: 5 2 38: seasicksteve killed HankMoody by UT_MOD_M4
+ 20:14 Kill: 4 8 20: CLeOpatra killed Kitty by UT_MOD_G36
+ 20:15 Item: 4 ut_weapon_g36
+ 20:16 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 20:19 Item: 3 ut_weapon_g36
+ 20:19 Item: 3 ut_weapon_beretta
+ 20:23 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 20:23 Kill: 2 1 19: HankMoody killed GRANSAC by UT_MOD_LR300
+ 20:24 Item: 2 ut_weapon_beretta
+ 20:26 Kill: 6 0 19: mazhe killed ARP by UT_MOD_LR300
+ 20:28 Item: 3 team_CTF_redflag
+ 20:29 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAARWU\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+ 20:29 ClientUserinfoChanged: 1 n\GRANSAC\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+ 20:30 Item: 3 ut_weapon_beretta
+ 20:31 Item: 3 ut_weapon_grenade_smoke
+ 20:32 Item: 2 ut_weapon_beretta
+ 20:32 Item: 2 ut_weapon_grenade_he
+ 20:32 Item: 2 ut_weapon_lr
+ 20:35 Item: 7 ut_weapon_m4
+ 20:37 Kill: 8 9 20: Kitty killed Dr.MoMo by UT_MOD_G36
+ 20:37 Kill: 5 2 38: seasicksteve killed HankMoody by UT_MOD_M4
+ 20:37 Item: 5 ut_weapon_grenade_he
+ 20:37 Item: 5 ut_weapon_beretta
+ 20:38 Item: 6 ut_weapon_grenade_he
+ 20:49 Kill: 0 9 6: <non-client> killed Dr.MoMo by MOD_FALLING
+ 20:50 Kill: 0 5 20: ARP killed seasicksteve by UT_MOD_G36
+ 20:53 Item: 0 ut_weapon_grenade_smoke
+ 20:57 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 20:57 Flag: 3 0: team_CTF_redflag
+ 20:58 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 20:59 Item: 1 ut_weapon_beretta
+ 21:00 Item: 1 ut_weapon_g36
+ 21:00 Item: 1 team_CTF_redflag
+ 21:00 Item: 1 ut_weapon_beretta
+ 21:00 Item: 1 ut_weapon_grenade_smoke
+ 21:00 Kill: 4 8 20: CLeOpatra killed Kitty by UT_MOD_G36
+ 21:02 Item: 1 ut_weapon_mp5k
+ 21:03 Kill: 0 5 20: ARP killed seasicksteve by UT_MOD_G36
+ 21:03 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 21:04 Item: 4 ut_weapon_g36
+ 21:05 Kill: 4 1 20: CLeOpatra killed GRANSAC by UT_MOD_G36
+ 21:05 Flag: 1 0: team_CTF_redflag
+ 21:05 Item: 4 ut_weapon_grenade_smoke
+ 21:05 Item: 4 ut_weapon_beretta
+ 21:05 Item: 4 ut_weapon_g36
+ 21:05 Item: 4 ut_weapon_mp5k
+ 21:06 Flag: 4 1: team_CTF_redflag
+ 21:09 say: 7 ChickMagnet: gg
+ 21:10 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 21:11 Item: 4 ut_weapon_beretta
+ 21:11 say: 1 GRANSAC: HO MERDE
+ 21:12 Item: 0 team_CTF_blueflag
+ 21:14 Kill: 7 6 38: ChickMagnet killed mazhe by UT_MOD_M4
+ 21:14 say: 8 Kitty: shit
+ 21:15 Item: 0 ut_weapon_grenade_he
+ 21:16 Item: 4 ut_weapon_mp5k
+ 21:16 Item: 4 ut_weapon_g36
+ 21:17 Item: 4 ut_weapon_beretta
+ 21:18 Item: 1 ut_weapon_beretta
+ 21:21 Item: 5 ut_weapon_m4
+ 21:23 Item: 2 ut_weapon_lr
+ 21:24 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 21:27 Item: 3 ut_weapon_mp5k
+ 21:28 Item: 3 ut_weapon_grenade_smoke
+ 21:28 Item: 3 ut_weapon_grenade_he
+ 21:28 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 21:29 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+ 21:29 Kill: 0 3 20: ARP killed Maud by UT_MOD_G36
+ 21:35 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 21:37 Kill: 0 9 6: <non-client> killed Dr.MoMo by MOD_FALLING
+ 21:39 Kill: 2 1 19: HankMoody killed GRANSAC by UT_MOD_LR300
+ 21:44 Kill: 0 6 20: ARP killed mazhe by UT_MOD_G36
+ 21:48 Flag: 0 2: team_CTF_redflag
+ 21:51 Item: 1 ut_weapon_grenade_he
+ 21:57 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 21:58 Kill: 6 4 19: mazhe killed CLeOpatra by UT_MOD_LR300
+ 22:01 Kill: 6 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 22:01 Item: 1 team_CTF_redflag
+ 22:04 Item: 6 ut_weapon_beretta
+ 22:07 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 22:09 Kill: 0 8 20: ARP killed Kitty by UT_MOD_G36
+ 22:10 Item: 9 team_CTF_blueflag
+ 22:10 say: 7 ChickMagnet: grrrr
+ 22:11 Item: 6 ut_weapon_grenade_he
+ 22:11 Item: 4 ut_weapon_beretta
+ 22:11 Item: 5 ut_weapon_m4
+ 22:13 Item: 3 ut_weapon_g36
+ 22:14 Item: 3 ut_weapon_beretta
+ 22:17 Kill: 0 6 6: <non-client> killed mazhe by MOD_FALLING
+ 22:21 Kill: 4 5 20: CLeOpatra killed seasicksteve by UT_MOD_G36
+ 22:21 Item: 7 ut_weapon_m4
+ 22:21 Item: 4 ut_weapon_beretta
+ 22:28 Item: 4 ut_weapon_beretta
+ 22:35 Kill: 2 8 19: HankMoody killed Kitty by UT_MOD_LR300
+ 22:37 Kill: 0 6 20: ARP killed mazhe by UT_MOD_G36
+ 22:38 Kill: 8 4 23: Kitty killed CLeOpatra by UT_MOD_BLED
+ 22:41 Item: 7 ut_weapon_beretta
+ 22:41 Kill: 2 1 19: HankMoody killed GRANSAC by UT_MOD_LR300
+ 22:41 Flag: 1 0: team_CTF_redflag
+ 22:45 Flag: 2 1: team_CTF_redflag
+ 22:46 say: 8 Kitty: noon
+ 22:49 Item: 1 ut_weapon_grenade_he
+ 22:49 Kill: 6 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 22:49 Item: 2 ut_weapon_beretta
+ 22:50 Kill: 6 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 22:50 Kill: 9 3 20: Dr.MoMo killed Maud by UT_MOD_G36
+ 22:51 Flag: 9 2: team_CTF_redflag
+ 22:54 Item: 1 ut_weapon_beretta
+ 22:55 Kill: 0 0 25: ARP killed ARP by UT_MOD_HEGRENADE
+ 22:56 Item: 4 ut_weapon_beretta
+ 22:56 sayteam: 1 GRANSAC: :/
+ 22:56 Item: 4 ut_weapon_g36
+ 22:58 Kill: 5 4 38: seasicksteve killed CLeOpatra by UT_MOD_M4
+ 23:08 Kill: 0 5 6: <non-client> killed seasicksteve by MOD_FALLING
+ 23:10 Item: 3 ut_weapon_g36
+ 23:11 Kill: 6 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 23:12 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 23:13 Kill: 9 1 20: Dr.MoMo killed GRANSAC by UT_MOD_G36
+ 23:14 Kill: 0 8 20: ARP killed Kitty by UT_MOD_G36
+ 23:21 Kill: 7 6 38: ChickMagnet killed mazhe by UT_MOD_M4
+ 23:25 Item: 4 ut_weapon_g36
+ 23:25 Item: 4 ut_weapon_beretta
+ 23:26 Kill: 1 0 20: GRANSAC killed ARP by UT_MOD_G36
+ 23:27 Item: 4 ut_weapon_beretta
+ 23:29 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 23:30 Item: 7 ut_weapon_beretta
+ 23:31 Item: 4 ut_weapon_beretta
+ 23:32 Item: 4 ut_weapon_g36
+ 23:36 Item: 4 ut_weapon_g36
+ 23:37 Kill: 0 1 20: ARP killed GRANSAC by UT_MOD_G36
+ 23:39 Kill: 0 5 20: ARP killed seasicksteve by UT_MOD_G36
+ 23:41 Item: 0 ut_weapon_grenade_smoke
+ 23:43 Kill: 6 0 23: mazhe killed ARP by UT_MOD_BLED
+ 23:44 Kill: 2 6 19: HankMoody killed mazhe by UT_MOD_LR300
+ 23:46 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 23:49 Item: 3 ut_weapon_g36
+ 23:50 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 23:50 Item: 4 ut_weapon_g36
+ 23:51 Item: 1 ut_weapon_g36
+ 23:52 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 23:54 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 23:54 Item: 6 ut_weapon_lr
+ 23:56 Item: 3 ut_weapon_beretta
+ 23:58 Item: 1 ut_weapon_beretta
+ 24:00 Item: 5 ut_weapon_grenade_he
+ 24:00 Item: 5 ut_weapon_m4
+ 24:01 Item: 1 ut_weapon_beretta
+ 24:01 Item: 1 ut_weapon_grenade_he
+ 24:01 Item: 1 ut_weapon_g36
+ 24:01 Item: 6 ut_weapon_beretta
+ 24:02 Item: 1 ut_weapon_grenade_smoke
+ 24:03 Kill: 5 9 38: seasicksteve killed Dr.MoMo by UT_MOD_M4
+ 24:07 Kill: 2 5 19: HankMoody killed seasicksteve by UT_MOD_LR300
+ 24:07 Item: 2 ut_weapon_grenade_smoke
+ 24:07 Item: 2 ut_weapon_beretta
+ 24:07 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 24:11 Item: 6 team_CTF_redflag
+ 24:13 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 24:13 Kill: 4 1 20: CLeOpatra killed GRANSAC by UT_MOD_G36
+ 24:14 Item: 6 ut_weapon_grenade_he
+ 24:17 Item: 4 ut_weapon_beretta
+ 24:17 Item: 4 ut_weapon_beretta
+ 24:17 Item: 4 ut_weapon_grenade_smoke
+ 24:18 Item: 6 ut_weapon_beretta
+ 24:19 Item: 6 ut_weapon_lr
+ 24:19 Item: 6 ut_weapon_grenade_smoke
+ 24:20 Item: 0 team_CTF_blueflag
+ 24:21 Kill: 4 6 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 24:21 Flag: 6 0: team_CTF_redflag
+ 24:22 Item: 4 ut_weapon_beretta
+ 24:22 Flag: 4 1: team_CTF_redflag
+ 24:23 Item: 9 ut_weapon_deagle
+ 24:23 Item: 9 ut_weapon_g36
+ 24:24 Kill: 1 0 20: GRANSAC killed ARP by UT_MOD_G36
+ 24:24 Flag: 0 0: team_CTF_blueflag
+ 24:26 Flag: 3 1: team_CTF_blueflag
+ 24:26 Item: 3 ut_weapon_grenade_he
+ 24:27 Item: 9 ut_weapon_g36
+ 24:35 Exit: Timelimit hit.
+ 24:35 red:3  blue:1
+ 24:35 score: 113  ping: 3  client: 0 ARP
+ 24:35 score: 97  ping: 7  client: 2 HankMoody
+ 24:35 score: 80  ping: 3  client: 4 CLeOpatra
+ 24:35 score: 44  ping: 1  client: 7 ChickMagnet
+ 24:35 score: 43  ping: 0  client: 1 GRANSAC
+ 24:35 score: 39  ping: 0  client: 9 Dr.MoMo
+ 24:35 score: 37  ping: 6  client: 3 Maud
+ 24:35 score: 31  ping: 7  client: 6 mazhe
+ 24:35 score: 20  ping: 3  client: 8 Kitty
+ 24:35 score: 19  ping: 3  client: 5 seasicksteve
+ 24:38 say: 7 ChickMagnet: gg
+ 24:41 say: 1 GRANSAC: GG
+ 24:51 ShutdownGame:
+ 24:51 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_suburbs\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:00 Warmup:
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAARWU\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+  0:00 ClientUserinfoChanged: 1 n\GRANSAC\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FLAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 2 n\HankMoody\t\1\r\2\tl\0\f0\ninja\f1\goggles\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 3 n\Maud\t\2\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 4 n\CLeOpatra\t\1\r\1\tl\0\f0\shades\f1\ninja\f2\\a0\0\a1\255\a2\0
+  0:00 ClientConnect: 5
+  0:00 ClientUserinfo: 5 \ip\194.199.23.183:27960\name\seasick steve\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FeAQVXA\teamtask\0\cl_guid\0956C248C30103E6BBF9D661FBFBC37C\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 5 n\seasicksteve\t\2\r\0\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 6
+  0:00 ClientUserinfo: 6 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\g_gametype\7\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FLAAVRX\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 6 n\mazhe\t\2\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:00 ClientConnect: 7
+  0:00 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+  0:00 ClientUserinfoChanged: 7 n\ChickMagnet\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientConnect: 8
+  0:00 ClientUserinfo: 8 \ip\194.199.23.175:27960\name\Kitty\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAARWA\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 8 n\Kitty\t\2\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 9
+  0:00 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GMAOUWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:18 ClientBegin: 9
+  0:18 ClientBegin: 4
+  0:18 ClientBegin: 3
+  0:21 ClientBegin: 8
+  0:21 ClientBegin: 2
+  0:21 ClientBegin: 7
+  0:23 ClientBegin: 1
+  0:26 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAQUWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  0:26 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:30 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAQVWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  0:30 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:32 ClientDisconnect: 0
+  0:32 ClientDisconnect: 5
+  0:32 ClientDisconnect: 6
+  0:32 ------------------------------------------------------------
+  0:32 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_suburbs\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:43 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  0:44 Kill: 8 9 20: Kitty killed Dr.MoMo by UT_MOD_G36
+  0:44 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+  0:44 Item: 7 ut_weapon_grenade_smoke
+  0:46 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  0:48 Item: 3 ut_weapon_grenade_he
+  0:48 Item: 3 ut_weapon_beretta
+  0:48 Item: 3 ut_weapon_g36
+  0:51 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  0:52 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  0:57 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FMAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  0:57 ClientUserinfoChanged: 2 n\HankMoody\t\1\r\2\tl\0\f0\ninja\f1\goggles\f2\\a0\255\a1\255\a2\0
+  0:58 Item: 8 ut_weapon_deagle
+  0:58 Item: 8 ut_weapon_g36
+  0:59 Item: 8 ut_weapon_deagle
+  1:03 Item: 9 team_CTF_blueflag
+  1:03 say: 7 ChickMagnet: kitty si tu me retue une fois je diffuse la video :P
+  1:09 Item: 7 ut_weapon_grenade_he
+  1:09 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  1:10 Item: 2 ut_weapon_beretta
+  1:10 Kill: 2 1 20: HankMoody killed GRANSAC by UT_MOD_G36
+  1:14 ShutdownGame:
+  1:14 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_algiers\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:00 Warmup:
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAARWU\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+  0:00 ClientUserinfoChanged: 1 n\GRANSAC\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FMAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 2 n\HankMoody\t\1\r\2\tl\0\f0\ninja\f1\goggles\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 3 n\Maud\t\2\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 4 n\CLeOpatra\t\1\r\1\tl\0\f0\shades\f1\ninja\f2\\a0\0\a1\255\a2\0
+  0:00 ClientConnect: 7
+  0:00 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+  0:00 ClientUserinfoChanged: 7 n\ChickMagnet\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientConnect: 8
+  0:00 ClientUserinfo: 8 \ip\194.199.23.175:27960\name\Kitty\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAARWA\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 8 n\Kitty\t\2\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 9
+  0:00 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAQVWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:06 ClientConnect: 0
+  0:06 ClientUserinfo: 0 \ip\194.199.23.151:27960\challenge\105485395\qport\205\protocol\68\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:06 ClientUserinfoChanged: 0 n\ARP\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:08 ClientBegin: 4
+  0:08 ClientBegin: 9
+  0:08 ClientBegin: 3
+  0:09 ClientBegin: 8
+  0:10 ClientBegin: 7
+  0:11 ClientBegin: 2
+  0:12 ClientBegin: 1
+  0:17 ClientConnect: 5
+  0:17 ClientUserinfo: 5 \ip\194.199.23.184:27960\challenge\-492356553\qport\228\protocol\68\name\mazhe\rate\8000\cg_predictitems\0\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4
+  0:17 ClientUserinfoChanged: 5 n\mazhe\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:22 Item: 9 team_CTF_blueflag
+  0:22 ------------------------------------------------------------
+  0:22 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_algiers\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:23 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:23 ClientUserinfoChanged: 0 n\ARP\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:23 ClientBegin: 0
+  0:24 Kill: 0 0 10: ARP killed ARP by MOD_CHANGE_TEAM
+  0:24 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAOWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:24 ClientUserinfoChanged: 0 n\ARP\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:24 ClientBegin: 0
+  0:32 Kill: 2 8 20: HankMoody killed Kitty by UT_MOD_G36
+  0:33 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  0:33 Item: 4 ut_weapon_beretta
+  0:34 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  0:34 ClientUserinfo: 5 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\gear\FLAAVRX\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  0:34 ClientUserinfoChanged: 5 n\mazhe\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:34 ClientBegin: 5
+  0:35 Item: 9 team_CTF_blueflag
+  0:35 Kill: 0 7 20: ARP killed ChickMagnet by UT_MOD_G36
+  0:37 Kill: 0 9 20: ARP killed Dr.MoMo by UT_MOD_G36
+  0:37 Flag: 9 0: team_CTF_blueflag
+  0:39 Item: 3 ut_weapon_g36
+  0:39 Flag: 0 1: team_CTF_blueflag
+  0:39 Item: 0 ut_weapon_deagle
+  0:41 Kill: 5 5 10: mazhe killed mazhe by MOD_CHANGE_TEAM
+  0:41 ClientUserinfo: 5 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\gear\FLAAVRX\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  0:41 ClientUserinfoChanged: 5 n\mazhe\t\2\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:41 ClientBegin: 5
+  0:46 Item: 3 team_CTF_redflag
+  0:48 Kill: 2 3 20: HankMoody killed Maud by UT_MOD_G36
+  0:48 Flag: 3 0: team_CTF_redflag
+  0:50 Flag: 4 1: team_CTF_redflag
+  0:51 Kill: 0 9 20: ARP killed Dr.MoMo by UT_MOD_G36
+  0:52 Kill: 0 2 20: ARP killed HankMoody by UT_MOD_G36
+  0:52 ClientConnect: 6
+  0:52 ClientUserinfo: 6 \ip\194.199.23.131:27961\challenge\1617275453\qport\45835\protocol\68\name\Doms\rate\8000\cg_predictitems\0\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1
+  0:52 ClientUserinfoChanged: 6 n\Doms\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  0:55 Kill: 1 4 23: GRANSAC killed CLeOpatra by UT_MOD_BLED
+  0:57 Item: 1 team_CTF_redflag
+  0:57 Item: 5 ut_weapon_grenade_he
+  0:57 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+  0:58 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FeAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  0:58 ClientUserinfoChanged: 2 n\HankMoody\t\1\r\2\tl\0\f0\ninja\f1\goggles\f2\\a0\255\a1\255\a2\0
+  1:01 Item: 7 team_CTF_blueflag
+  1:02 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+  1:02 Flag: 7 0: team_CTF_blueflag
+  1:03 Kill: 0 9 25: ARP killed Dr.MoMo by UT_MOD_HEGRENADE
+  1:03 Flag: 1 1: team_CTF_blueflag
+  1:03 Item: 1 ut_weapon_beretta
+  1:03 Flag: 1 2: team_CTF_blueflag
+  1:03 Item: 0 ut_weapon_grenade_smoke
+  1:03 Item: 0 ut_weapon_mp5k
+  1:04 Item: 0 ut_weapon_deagle
+  1:04 Item: 0 ut_weapon_g36
+  1:04 Kill: 2 0 38: HankMoody killed ARP by UT_MOD_M4
+  1:05 Item: 2 ut_weapon_m4
+  1:06 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  1:06 Item: 5 ut_weapon_beretta
+  1:07 Item: 4 ut_weapon_beretta
+  1:07 Item: 8 ut_weapon_g36
+  1:08 Item: 8 ut_weapon_deagle
+  1:10 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  1:11 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  1:14 Item: 8 ut_weapon_g36
+  1:16 Item: 8 team_CTF_redflag
+  1:17 Item: 2 ut_weapon_grenade_smoke
+  1:18 Item: 9 ut_weapon_m4
+  1:18 Kill: 2 8 38: HankMoody killed Kitty by UT_MOD_M4
+  1:18 Flag: 8 0: team_CTF_redflag
+  1:20 Item: 9 ut_weapon_grenade_he
+  1:20 Item: 9 ut_weapon_m4
+  1:20 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+  1:20 Flag: 2 1: team_CTF_redflag
+  1:21 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  1:22 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+  1:23 ClientDisconnect: 6
+  1:23 Item: 1 team_CTF_redflag
+  1:24 Item: 1 ut_weapon_grenade_he
+  1:24 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  1:28 Item: 5 ut_weapon_beretta
+  1:28 Item: 5 ut_weapon_grenade_he
+  1:29 Item: 5 ut_weapon_lr
+  1:29 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAAVWR\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  1:29 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  1:29 Item: 5 ut_weapon_beretta
+  1:29 Item: 5 ut_weapon_grenade_smoke
+  1:30 Item: 0 ut_weapon_grenade_smoke
+  1:30 Item: 0 ut_weapon_deagle
+  1:31 Flag: 1 2: team_CTF_blueflag
+  1:34 Kill: 7 9 38: ChickMagnet killed Dr.MoMo by UT_MOD_M4
+  1:34 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  1:35 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+  1:36 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  1:36 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  1:37 Item: 2 ut_weapon_m4
+  1:38 Item: 4 ut_weapon_beretta
+  1:39 Kill: 1 2 14: GRANSAC killed HankMoody by UT_MOD_BERETTA
+  1:41 Item: 4 ut_weapon_beretta
+  1:41 Item: 4 ut_weapon_grenade_smoke
+  1:42 Item: 4 ut_weapon_beretta
+  1:42 Item: 4 ut_weapon_g36
+  1:43 Kill: 1 4 14: GRANSAC killed CLeOpatra by UT_MOD_BERETTA
+  1:46 Item: 1 team_CTF_redflag
+  1:48 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+  1:48 Flag: 1 0: team_CTF_redflag
+  1:48 Item: 2 ut_weapon_m4
+  1:49 Item: 2 ut_weapon_m4
+  1:49 Item: 2 ut_weapon_m4
+  1:49 Item: 2 ut_weapon_beretta
+  1:50 Flag: 2 1: team_CTF_redflag
+  1:51 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  1:51 Kill: 2 8 38: HankMoody killed Kitty by UT_MOD_M4
+  1:53 Item: 4 ut_weapon_g36
+  1:54 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  1:54 Item: 5 ut_weapon_grenade_he
+  1:55 Item: 5 ut_weapon_beretta
+  1:56 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  2:05 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  2:06 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  2:07 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  2:08 Item: 1 ut_weapon_beretta
+  2:08 Kill: 5 0 25: mazhe killed ARP by UT_MOD_HEGRENADE
+  2:11 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+  2:12 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+  2:13 Item: 7 team_CTF_blueflag
+  2:19 Kill: 0 2 20: ARP killed HankMoody by UT_MOD_G36
+  2:22 Item: 1 ut_weapon_grenade_he
+  2:23 Item: 1 ut_weapon_g36
+  2:24 Flag: 7 2: team_CTF_redflag
+  2:24 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  2:25 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  2:27 Item: 1 ut_weapon_g36
+  2:28 Kill: 3 5 20: Maud killed mazhe by UT_MOD_G36
+  2:28 Item: 4 ut_weapon_beretta
+  2:32 Kill: 3 4 18: Maud killed CLeOpatra by UT_MOD_MP5K
+  2:32 Item: 3 ut_weapon_grenade_he
+  2:32 Item: 3 ut_weapon_beretta
+  2:32 Item: 3 ut_weapon_g36
+  2:35 Kill: 2 8 38: HankMoody killed Kitty by UT_MOD_M4
+  2:35 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  2:35 Item: 7 ut_weapon_m4
+  2:35 Item: 7 ut_weapon_beretta
+  2:37 Kill: 9 3 38: Dr.MoMo killed Maud by UT_MOD_M4
+  2:37 Kill: 0 7 20: ARP killed ChickMagnet by UT_MOD_G36
+  2:38 Item: 1 team_CTF_redflag
+  2:42 Kill: 5 0 19: mazhe killed ARP by UT_MOD_LR300
+  2:42 Kill: 9 5 38: Dr.MoMo killed mazhe by UT_MOD_M4
+  2:46 Flag: 1 2: team_CTF_blueflag
+  2:47 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+  2:49 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  2:49 ClientConnect: 6
+  2:49 ClientUserinfo: 6 \ip\194.199.23.131:27960\challenge\-45928232\qport\34262\protocol\68\name\Doms\rate\8000\cg_predictitems\0\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1
+  2:49 ClientUserinfoChanged: 6 n\Doms\t\3\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\0
+  2:50 Item: 3 ut_weapon_g36
+  2:51 Item: 7 ut_weapon_beretta
+  2:51 Item: 5 ut_weapon_beretta
+  2:52 Item: 4 ut_weapon_g36
+  2:52 Item: 4 ut_weapon_beretta
+  2:53 sayteam: 1 GRANSAC: BLOQUEZ PAS !!
+  2:53 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  2:54 Item: 2 ut_weapon_beretta
+  2:54 Item: 2 ut_weapon_mp5k
+  2:54 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  2:54 Item: 5 ut_weapon_grenade_he
+  2:54 say: 9 Dr.MoMo: chanceu
+  2:55 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJASWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020002
+  2:55 ClientUserinfoChanged: 6 n\Doms\t\3\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  2:55 ClientBegin: 6
+  2:56 Item: 5 ut_weapon_beretta
+  2:56 Item: 5 ut_weapon_mp5k
+  2:56 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+  2:57 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  2:57 Kill: 6 6 10: Doms killed Doms by MOD_CHANGE_TEAM
+  2:57 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJASWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020002
+  2:57 ClientUserinfoChanged: 6 n\Doms\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  2:57 ClientBegin: 6
+  3:00 Item: 7 ut_weapon_grenade_he
+  3:00 Item: 7 team_CTF_blueflag
+  3:04 Item: 7 ut_weapon_mp5k
+  3:04 Item: 7 ut_weapon_m4
+  3:05 Item: 2 ut_weapon_m4
+  3:05 Item: 7 ut_weapon_beretta
+  3:05 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  3:05 Flag: 7 0: team_CTF_blueflag
+  3:08 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  3:08 Item: 2 team_CTF_blueflag
+  3:08 Item: 2 ut_weapon_mp5k
+  3:09 Kill: 0 2 20: ARP killed HankMoody by UT_MOD_G36
+  3:09 Flag: 2 0: team_CTF_blueflag
+  3:09 Item: 0 ut_weapon_mp5k
+  3:09 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  3:10 Flag: 8 1: team_CTF_blueflag
+  3:10 Item: 3 ut_weapon_beretta
+  3:10 Item: 3 ut_weapon_beretta
+  3:11 Item: 4 ut_weapon_mp5k
+  3:12 Item: 4 ut_weapon_beretta
+  3:14 Item: 4 team_CTF_blueflag
+  3:19 Item: 7 ut_weapon_beretta
+  3:19 Item: 9 ut_weapon_m4
+  3:19 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  3:19 Item: 3 ut_weapon_grenade_he
+  3:19 Item: 3 ut_weapon_g36
+  3:19 Item: 3 ut_weapon_mp5k
+  3:20 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  3:20 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  3:20 Flag: 4 0: team_CTF_blueflag
+  3:21 Kill: 8 3 20: Kitty killed Maud by UT_MOD_G36
+  3:21 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  3:22 Flag: 8 1: team_CTF_blueflag
+  3:22 Item: 8 ut_weapon_g36
+  3:22 Item: 8 ut_weapon_mp5k
+  3:22 Item: 8 ut_weapon_mp5k
+  3:22 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+  3:22 Item: 8 ut_weapon_grenade_he
+  3:22 Item: 8 ut_weapon_g36
+  3:22 Item: 8 ut_weapon_deagle
+  3:24 Item: 1 team_CTF_redflag
+  3:24 Item: 5 ut_weapon_beretta
+  3:27 Item: 1 ut_weapon_grenade_he
+  3:29 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GeAAWRV\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  3:29 ClientUserinfoChanged: 0 n\ARP\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  3:30 Flag: 1 2: team_CTF_blueflag
+  3:30 say: 7 ChickMagnet: respawn plus court ou equipe plus equilibrer!!!
+  3:31 Item: 5 ut_weapon_beretta
+  3:31 Item: 5 ut_weapon_grenade_he
+  3:35 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FeJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020002
+  3:35 ClientUserinfoChanged: 6 n\Doms\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  3:35 Item: 0 ut_weapon_deagle
+  3:35 Item: 4 ut_weapon_ump45
+  3:35 Item: 0 ut_weapon_m4
+  3:38 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+  3:38 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  3:39 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  3:42 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  3:43 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  3:45 Item: 0 ut_weapon_m4
+  3:45 Item: 1 ut_weapon_beretta
+  3:45 Item: 1 ut_weapon_beretta
+  3:47 Item: 8 team_CTF_redflag
+  3:48 Kill: 7 8 23: ChickMagnet killed Kitty by UT_MOD_BLED
+  3:48 Flag: 8 0: team_CTF_redflag
+  3:49 Item: 1 ut_weapon_g36
+  3:50 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  3:51 Item: 7 ut_weapon_m4
+  3:51 Item: 6 ut_weapon_grenade_he
+  3:51 Item: 7 ut_weapon_beretta
+  3:51 Flag: 6 1: team_CTF_redflag
+  3:52 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  3:52 Item: 6 ut_weapon_m4
+  3:52 Kill: 6 3 38: Doms killed Maud by UT_MOD_M4
+  3:53 Kill: 1 6 14: GRANSAC killed Doms by UT_MOD_BERETTA
+  3:53 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  3:55 Item: 5 ut_weapon_mp5k
+  3:56 Item: 1 team_CTF_redflag
+  3:56 Item: 1 ut_weapon_mp5k
+  3:56 Item: 1 ut_weapon_g36
+  3:56 Item: 1 ut_weapon_beretta
+  3:58 Item: 4 ut_weapon_ump45
+  3:58 Item: 4 ut_weapon_beretta
+  4:00 Kill: 1 4 14: GRANSAC killed CLeOpatra by UT_MOD_BERETTA
+  4:00 Item: 9 team_CTF_blueflag
+  4:02 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+  4:02 Flag: 1 0: team_CTF_redflag
+  4:04 Item: 7 ut_weapon_m4
+  4:04 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+  4:04 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+  4:04 Flag: 9 0: team_CTF_blueflag
+  4:05 Item: 2 ut_weapon_m4
+  4:06 Item: 2 ut_weapon_beretta
+  4:06 Flag: 0 1: team_CTF_blueflag
+  4:06 Item: 0 team_CTF_redflag
+  4:06 Item: 0 ut_weapon_grenade_he
+  4:07 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  4:08 Item: 0 ut_weapon_m4
+  4:08 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  4:08 Flag: 0 0: team_CTF_redflag
+  4:08 Item: 7 ut_weapon_m4
+  4:08 Item: 7 ut_weapon_grenade_he
+  4:09 Flag: 7 1: team_CTF_redflag
+  4:12 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  4:12 Item: 8 ut_weapon_grenade_he
+  4:13 Item: 8 ut_weapon_mp5k
+  4:19 Item: 3 ut_weapon_beretta
+  4:21 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  4:22 Kill: 0 6 38: ARP killed Doms by UT_MOD_M4
+  4:22 Item: 5 ut_weapon_mp5k
+  4:23 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  4:23 Item: 7 ut_weapon_grenade_he
+  4:23 Item: 7 ut_weapon_beretta
+  4:23 Item: 7 ut_weapon_m4
+  4:23 Item: 5 ut_weapon_beretta
+  4:24 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  4:24 Item: 5 ut_weapon_grenade_he
+  4:24 Kill: 5 8 19: mazhe killed Kitty by UT_MOD_LR300
+  4:24 Item: 5 ut_weapon_beretta
+  4:26 Item: 5 ut_weapon_beretta
+  4:27 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  4:34 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  4:35 Item: 2 ut_weapon_mp5k
+  4:35 Item: 2 ut_weapon_beretta
+  4:37 Kill: 6 0 38: Doms killed ARP by UT_MOD_M4
+  4:37 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  4:39 Item: 5 ut_weapon_beretta
+  4:39 Item: 1 team_CTF_redflag
+  4:41 Kill: 8 6 20: Kitty killed Doms by UT_MOD_G36
+  4:41 Item: 1 ut_weapon_mp5k
+  4:41 Item: 1 ut_weapon_beretta
+  4:43 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  4:45 Item: 8 ut_weapon_ump45
+  4:46 Exit: Capturelimit hit.
+  4:46 red:1  blue:5
+  4:46 score: 95  ping: 3  client: 1 GRANSAC
+  4:46 score: 65  ping: 3  client: 0 ARP
+  4:46 score: 50  ping: 1  client: 5 mazhe
+  4:46 score: 47  ping: 1  client: 3 Maud
+  4:46 score: 47  ping: 0  client: 8 Kitty
+  4:46 score: 34  ping: 0  client: 2 HankMoody
+  4:46 score: 30  ping: 0  client: 7 ChickMagnet
+  4:46 score: 29  ping: 0  client: 4 CLeOpatra
+  4:46 score: 15  ping: 1  client: 9 Dr.MoMo
+  4:46 score: 3  ping: 4  client: 6 Doms
+  4:46 Flag: 1 2: team_CTF_blueflag
+  4:48 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020002
+  4:48 ClientUserinfoChanged: 6 n\Doms\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  4:50 say: 2 HankMoody: plus de temps
+  4:50 say: 1 GRANSAC: here :p
+  4:52 say: 6 Doms: trop tard
+  4:53 say: 7 ChickMagnet: trop naze....
+  4:59 say: 9 Dr.MoMo: gransac 5 les autres 0
+  5:02 ------------------------------------------------------------
+  5:02 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_algiers\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  5:02 Kill: 0 0 10: ARP killed ARP by MOD_CHANGE_TEAM
+  5:02 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GeAAWRV\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  5:02 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  5:02 ClientBegin: 0
+  5:02 Kill: 4 4 10: CLeOpatra killed CLeOpatra by MOD_CHANGE_TEAM
+  5:02 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  5:02 ClientUserinfoChanged: 4 n\CLeOpatra\t\2\r\0\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\0
+  5:02 ClientBegin: 4
+  5:02 Kill: 8 8 10: Kitty killed Kitty by MOD_CHANGE_TEAM
+  5:02 ClientUserinfo: 8 \ip\194.199.23.175:27960\name\Kitty\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAARWA\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9\weapmodes\00000110220000020002
+  5:02 ClientUserinfoChanged: 8 n\Kitty\t\1\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  5:02 ClientBegin: 8
+  5:03 Kill: 1 1 10: GRANSAC killed GRANSAC by MOD_CHANGE_TEAM
+  5:03 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAARWU\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+  5:03 ClientUserinfoChanged: 1 n\GRANSAC\t\1\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+  5:03 ClientBegin: 1
+  5:03 Kill: 5 5 10: mazhe killed mazhe by MOD_CHANGE_TEAM
+  5:03 ClientUserinfo: 5 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\gear\FLAAVRX\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  5:03 ClientUserinfoChanged: 5 n\mazhe\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  5:03 ClientBegin: 5
+  5:03 Kill: 9 9 10: Dr.MoMo killed Dr.MoMo by MOD_CHANGE_TEAM
+  5:03 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAAVWR\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  5:03 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  5:03 ClientBegin: 9
+  5:03 Kill: 2 2 10: HankMoody killed HankMoody by MOD_CHANGE_TEAM
+  5:03 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FeAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  5:03 ClientUserinfoChanged: 2 n\HankMoody\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\255\a2\0
+  5:03 ClientBegin: 2
+  5:03 Kill: 6 6 10: Doms killed Doms by MOD_CHANGE_TEAM
+  5:03 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020002
+  5:03 ClientUserinfoChanged: 6 n\Doms\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  5:03 ClientBegin: 6
+  5:04 Kill: 3 3 10: Maud killed Maud by MOD_CHANGE_TEAM
+  5:04 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+  5:04 ClientUserinfoChanged: 3 n\Maud\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  5:04 ClientBegin: 3
+  5:04 Kill: 7 7 10: ChickMagnet killed ChickMagnet by MOD_CHANGE_TEAM
+  5:04 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+  5:04 ClientUserinfoChanged: 7 n\ChickMagnet\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  5:04 ClientBegin: 7
+  5:12 say: 6 Doms: trop long le starting time
+  5:15 Item: 0 team_CTF_blueflag
+  5:16 ------------------------------------------------------------
+  5:16 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_algiers\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  5:23 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAQVWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  5:23 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  5:28 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  5:28 Item: 3 ut_weapon_beretta
+  5:29 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  5:31 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  5:32 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  5:34 Kill: 7 1 38: ChickMagnet killed GRANSAC by UT_MOD_M4
+  5:35 Kill: 6 3 28: Doms killed Maud by UT_MOD_SR8
+  5:37 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  5:38 Item: 4 ut_weapon_beretta
+  5:38 Item: 4 ut_weapon_g36
+  5:39 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  5:44 Item: 8 ut_weapon_g36
+  5:45 Kill: 6 8 28: Doms killed Kitty by UT_MOD_SR8
+  5:50 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  5:50 Item: 4 ut_weapon_beretta
+  5:51 Item: 4 ut_weapon_g36
+  5:51 Item: 7 ut_weapon_m4
+  5:52 Item: 4 ut_weapon_beretta
+  5:52 Item: 9 ut_weapon_deagle
+  5:53 Item: 9 ut_weapon_grenade_he
+  5:57 Item: 4 ut_weapon_g36
+  5:58 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  5:59 Kill: 7 1 38: ChickMagnet killed GRANSAC by UT_MOD_M4
+  5:59 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  6:03 Item: 7 team_CTF_redflag
+  6:04 Item: 3 ut_weapon_beretta
+  6:04 Item: 3 team_CTF_blueflag
+  6:06 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  6:06 Flag: 3 0: team_CTF_blueflag
+  6:06 Item: 2 ut_weapon_mp5k
+  6:06 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  6:06 Item: 2 ut_weapon_beretta
+  6:07 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  6:07 Flag: 2 1: team_CTF_blueflag
+  6:08 Item: 5 ut_weapon_beretta
+  6:09 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  6:09 Flag: 7 0: team_CTF_redflag
+  6:11 Kill: 2 0 38: HankMoody killed ARP by UT_MOD_M4
+  6:17 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+  6:18 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  6:21 Item: 0 ut_weapon_grenade_he
+  6:21 Kill: 4 8 20: CLeOpatra killed Kitty by UT_MOD_G36
+  6:21 Item: 9 ut_weapon_deagle
+  6:22 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  6:24 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+  6:27 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  6:27 Item: 3 ut_weapon_beretta
+  6:29 Item: 3 ut_weapon_beretta
+  6:30 Item: 3 ut_weapon_mp5k
+  6:31 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+  6:31 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  6:32 sayteam: 7 ChickMagnet: flag!!!
+  6:32 Item: 0 ut_weapon_mp5k
+  6:33 Kill: 6 0 28: Doms killed ARP by UT_MOD_SR8
+  6:35 Item: 9 ut_weapon_grenade_he
+  6:35 Item: 9 ut_weapon_deagle
+  6:36 Item: 2 ut_weapon_m4
+  6:37 Item: 7 ut_weapon_beretta
+  6:37 Item: 9 team_CTF_redflag
+  6:38 Item: 7 ut_weapon_mp5k
+  6:38 Item: 7 ut_weapon_m4
+  6:38 Item: 7 ut_weapon_grenade_he
+  6:38 Item: 7 ut_weapon_m4
+  6:39 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  6:40 Item: 1 ut_weapon_beretta
+  6:40 Item: 1 ut_weapon_ump45
+  6:41 Flag: 9 2: team_CTF_blueflag
+  6:42 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  6:43 Item: 5 ut_weapon_grenade_he
+  6:44 Item: 5 ut_weapon_grenade_smoke
+  6:47 Item: 7 team_CTF_redflag
+  6:47 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  6:48 Kill: 5 6 19: mazhe killed Doms by UT_MOD_LR300
+  6:49 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  6:49 Flag: 7 0: team_CTF_redflag
+  6:50 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  6:50 Item: 4 ut_weapon_beretta
+  6:50 Item: 4 ut_weapon_grenade_smoke
+  6:52 Item: 1 ut_weapon_grenade_he
+  6:52 Flag: 1 1: team_CTF_redflag
+  6:52 Item: 1 ut_weapon_beretta
+  6:53 Item: 0 ut_weapon_grenade_he
+  6:53 Item: 0 ut_weapon_m4
+  6:53 Item: 0 ut_weapon_mp5k
+  6:59 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  7:01 Kill: 8 9 20: Kitty killed Dr.MoMo by UT_MOD_G36
+  7:02 Item: 0 team_CTF_blueflag
+  7:02 Item: 7 ut_weapon_ump45
+  7:03 Item: 4 ut_weapon_beretta
+  7:06 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  7:06 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  7:07 Item: 7 ut_weapon_grenade_he
+  7:07 Item: 7 ut_weapon_beretta
+  7:07 Kill: 1 7 14: GRANSAC killed ChickMagnet by UT_MOD_BERETTA
+  7:11 Flag: 0 2: team_CTF_redflag
+  7:12 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  7:13 Kill: 1 4 17: GRANSAC killed CLeOpatra by UT_MOD_UMP45
+  7:14 Kill: 1 6 17: GRANSAC killed Doms by UT_MOD_UMP45
+  7:16 Item: 1 team_CTF_blueflag
+  7:16 Item: 1 ut_weapon_ump45
+  7:18 Item: 6 ut_weapon_grenade_he
+  7:18 Item: 2 ut_weapon_ump45
+  7:18 Item: 2 ut_weapon_beretta
+  7:21 Item: 7 ut_weapon_grenade_he
+  7:21 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  7:21 Item: 7 ut_weapon_beretta
+  7:21 Item: 7 ut_weapon_ump45
+  7:21 Item: 4 ut_weapon_beretta
+  7:23 Flag: 1 2: team_CTF_redflag
+  7:24 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  7:25 Item: 4 ut_weapon_mp5k
+  7:26 Kill: 6 5 17: Doms killed mazhe by UT_MOD_UMP45
+  7:27 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  7:29 Kill: 1 9 17: GRANSAC killed Dr.MoMo by UT_MOD_UMP45
+  7:30 Item: 7 team_CTF_redflag
+  7:33 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  7:33 Flag: 7 0: team_CTF_redflag
+  7:35 Kill: 6 5 28: Doms killed mazhe by UT_MOD_SR8
+  7:36 Kill: 9 8 38: Dr.MoMo killed Kitty by UT_MOD_M4
+  7:37 Flag: 0 1: team_CTF_redflag
+  7:37 Item: 0 ut_weapon_ump45
+  7:37 Item: 0 ut_weapon_grenade_he
+  7:38 Kill: 1 9 17: GRANSAC killed Dr.MoMo by UT_MOD_UMP45
+  7:39 Item: 1 ut_weapon_g36
+  7:40 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+  7:41 Kill: 0 6 38: ARP killed Doms by UT_MOD_M4
+  7:43 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  7:44 Item: 3 ut_weapon_beretta
+  7:49 Item: 1 ut_weapon_beretta
+  7:50 Item: 0 ut_weapon_mp5k
+  7:50 Item: 9 ut_weapon_m4
+  7:53 Kill: 9 3 38: Dr.MoMo killed Maud by UT_MOD_M4
+  7:54 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  7:54 Kill: 9 0 38: Dr.MoMo killed ARP by UT_MOD_M4
+  7:54 Item: 7 ut_weapon_beretta
+  7:55 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  7:56 Item: 9 ut_weapon_m4
+  7:56 Item: 9 ut_weapon_deagle
+  8:00 Item: 7 team_CTF_redflag
+  8:02 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+  8:02 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  8:05 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  8:05 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  8:05 Flag: 7 0: team_CTF_redflag
+  8:06 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  8:08 Flag: 5 1: team_CTF_redflag
+  8:08 Item: 5 ut_weapon_beretta
+  8:11 Kill: 6 1 28: Doms killed GRANSAC by UT_MOD_SR8
+  8:13 say: 1 GRANSAC: :P
+  8:15 Kill: 6 0 28: Doms killed ARP by UT_MOD_SR8
+  8:20 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  8:21 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  8:21 Item: 2 ut_weapon_beretta
+  8:21 Kill: 9 5 38: Dr.MoMo killed mazhe by UT_MOD_M4
+  8:22 Kill: 3 9 20: Maud killed Dr.MoMo by UT_MOD_G36
+  8:27 Kill: 1 2 23: GRANSAC killed HankMoody by UT_MOD_BLED
+  8:27 Item: 3 ut_weapon_beretta
+  8:27 Item: 3 team_CTF_blueflag
+  8:28 Kill: 6 1 17: Doms killed GRANSAC by UT_MOD_UMP45
+  8:35 Item: 9 ut_weapon_m4
+  8:35 Item: 7 ut_weapon_beretta
+  8:35 Item: 7 ut_weapon_m4
+  8:37 Flag: 3 2: team_CTF_redflag
+  8:38 Kill: 2 8 38: HankMoody killed Kitty by UT_MOD_M4
+  8:39 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  8:39 Kill: 9 0 38: Dr.MoMo killed ARP by UT_MOD_M4
+  8:39 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  8:40 Item: 9 ut_weapon_deagle
+  8:41 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  8:44 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  8:45 Item: 7 team_CTF_redflag
+  8:50 Item: 2 ut_weapon_grenade_smoke
+  8:50 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+  8:51 Item: 7 ut_weapon_beretta
+  8:52 Kill: 5 4 14: mazhe killed CLeOpatra by UT_MOD_BERETTA
+  8:54 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  8:55 Item: 5 ut_weapon_grenade_he
+  8:55 Item: 5 ut_weapon_beretta
+  8:55 Flag: 7 2: team_CTF_blueflag
+  8:56 Kill: 0 7 15: ARP killed ChickMagnet by UT_MOD_DEAGLE
+  8:57 Kill: 6 0 28: Doms killed ARP by UT_MOD_SR8
+  9:03 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+  9:04 Item: 2 ut_weapon_beretta
+  9:07 Item: 9 ut_weapon_deagle
+  9:07 Item: 0 ut_weapon_deagle
+  9:07 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  9:08 Item: 9 ut_weapon_m4
+  9:08 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+  9:08 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  9:08 Item: 2 ut_weapon_beretta
+  9:08 Item: 7 ut_weapon_beretta
+  9:11 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+  9:17 Kill: 8 2 20: Kitty killed HankMoody by UT_MOD_G36
+  9:18 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+  9:19 Kill: 2 8 23: HankMoody killed Kitty by UT_MOD_BLED
+  9:20 Item: 0 ut_weapon_m4
+  9:21 Item: 7 ut_weapon_grenade_he
+  9:21 Item: 7 ut_weapon_mp5k
+  9:24 Item: 1 ut_weapon_grenade_smoke
+  9:25 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  9:25 Item: 5 ut_weapon_beretta
+  9:25 Item: 5 ut_weapon_grenade_he
+  9:25 Item: 5 ut_weapon_mp5k
+  9:25 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  9:30 Item: 0 team_CTF_blueflag
+  9:32 Kill: 6 0 28: Doms killed ARP by UT_MOD_SR8
+  9:32 Flag: 0 0: team_CTF_blueflag
+  9:34 Flag: 2 1: team_CTF_blueflag
+  9:35 Item: 2 ut_weapon_beretta
+  9:36 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  9:37 Item: 2 ut_weapon_beretta
+  9:38 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  9:39 Item: 1 ut_weapon_beretta
+  9:41 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  9:42 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  9:42 Item: 1 team_CTF_blueflag
+  9:42 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  9:42 Item: 2 ut_weapon_beretta
+  9:42 Item: 2 ut_weapon_mp5k
+  9:43 Item: 2 ut_weapon_m4
+  9:44 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+  9:44 Flag: 1 0: team_CTF_blueflag
+  9:45 Flag: 9 1: team_CTF_blueflag
+  9:48 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  9:49 Kill: 4 8 20: CLeOpatra killed Kitty by UT_MOD_G36
+  9:50 Item: 1 ut_weapon_mp5k
+  9:50 Item: 4 ut_weapon_g36
+  9:52 Item: 9 ut_weapon_grenade_he
+  9:54 Item: 7 ut_weapon_grenade_he
+  9:54 Item: 7 ut_weapon_beretta
+  9:54 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  9:55 Item: 4 ut_weapon_mp5k
+  9:55 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  9:55 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  9:57 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  9:57 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  9:59 Item: 7 team_CTF_redflag
+  9:59 Item: 7 ut_weapon_beretta
+ 10:05 Item: 7 ut_weapon_beretta
+ 10:05 Item: 0 ut_weapon_mp5k
+ 10:07 Kill: 9 5 38: Dr.MoMo killed mazhe by UT_MOD_M4
+ 10:07 Flag: 7 2: team_CTF_blueflag
+ 10:07 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 10:08 Item: 4 ut_weapon_beretta
+ 10:08 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+ 10:08 Item: 2 ut_weapon_beretta
+ 10:09 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+ 10:09 Item: 2 ut_weapon_beretta
+ 10:09 Item: 2 ut_weapon_ump45
+ 10:09 Item: 3 ut_weapon_beretta
+ 10:10 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+ 10:11 say: 1 GRANSAC: shit
+ 10:11 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+ 10:15 say: 9 Dr.MoMo: joli
+ 10:15 Item: 0 team_CTF_blueflag
+ 10:15 Item: 0 ut_weapon_grenade_he
+ 10:17 Kill: 0 6 38: ARP killed Doms by UT_MOD_M4
+ 10:18 Item: 7 ut_weapon_ump45
+ 10:18 Item: 7 ut_weapon_beretta
+ 10:18 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+ 10:19 Item: 2 ut_weapon_m4
+ 10:19 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+ 10:19 Flag: 0 0: team_CTF_blueflag
+ 10:19 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+ 10:19 Item: 4 ut_weapon_grenade_smoke
+ 10:20 Item: 2 ut_weapon_beretta
+ 10:20 Item: 2 ut_weapon_mp5k
+ 10:20 Flag: 7 1: team_CTF_blueflag
+ 10:21 Item: 4 ut_weapon_mp5k
+ 10:23 Item: 7 ut_weapon_beretta
+ 10:23 Item: 7 ut_weapon_grenade_he
+ 10:28 Item: 5 ut_weapon_lr
+ 10:30 Kill: 5 4 19: mazhe killed CLeOpatra by UT_MOD_LR300
+ 10:30 Item: 2 team_CTF_redflag
+ 10:32 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 10:33 Item: 9 ut_weapon_m4
+ 10:33 Item: 9 ut_weapon_deagle
+ 10:33 Kill: 9 5 38: Dr.MoMo killed mazhe by UT_MOD_M4
+ 10:34 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 10:35 Item: 9 ut_weapon_grenade_he
+ 10:37 Item: 1 ut_weapon_beretta
+ 10:37 Item: 1 ut_weapon_ump45
+ 10:37 Item: 1 ut_weapon_grenade_he
+ 10:38 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 10:38 Flag: 2 0: team_CTF_redflag
+ 10:38 Item: 1 ut_weapon_grenade_smoke
+ 10:39 Item: 9 ut_weapon_m4
+ 10:39 Item: 1 team_CTF_blueflag
+ 10:39 Item: 9 team_CTF_redflag
+ 10:39 Item: 9 ut_weapon_mp5k
+ 10:40 Item: 1 ut_weapon_g36
+ 10:41 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+ 10:41 Flag: 9 0: team_CTF_redflag
+ 10:42 Flag: 1 1: team_CTF_redflag
+ 10:46 say: 9 Dr.MoMo: shit
+ 10:48 Flag: 1 2: team_CTF_redflag
+ 10:49 Item: 7 ut_weapon_beretta
+ 10:49 Item: 7 ut_weapon_m4
+ 10:50 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+ 10:51 Item: 4 ut_weapon_mp5k
+ 10:51 Item: 9 ut_weapon_deagle
+ 10:51 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+ 10:51 Item: 4 ut_weapon_beretta
+ 10:51 Item: 9 ut_weapon_m4
+ 10:52 Item: 9 ut_weapon_grenade_he
+ 10:52 Item: 4 ut_weapon_beretta
+ 10:52 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+ 10:55 Item: 8 ut_weapon_deagle
+ 10:55 Item: 8 ut_weapon_g36
+ 10:56 Kill: 4 5 23: CLeOpatra killed mazhe by UT_MOD_BLED
+ 10:56 Kill: 6 1 28: Doms killed GRANSAC by UT_MOD_SR8
+ 10:56 Kill: 0 2 23: ARP killed HankMoody by UT_MOD_BLED
+ 10:59 Kill: 9 4 23: Dr.MoMo killed CLeOpatra by UT_MOD_BLED
+ 10:59 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GLAAWRV\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 10:59 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 10:59 say: 1 GRANSAC: ouch
+ 11:03 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+ 11:08 Item: 7 ut_weapon_beretta
+ 11:08 Item: 7 ut_weapon_mp5k
+ 11:08 Item: 7 ut_weapon_grenade_he
+ 11:08 Item: 7 ut_weapon_beretta
+ 11:09 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+ 11:10 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+ 11:10 Item: 7 ut_weapon_beretta
+ 11:10 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 11:13 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 11:14 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+ 11:19 Kill: 8 2 20: Kitty killed HankMoody by UT_MOD_G36
+ 11:21 Item: 8 ut_weapon_grenade_he
+ 11:22 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 11:22 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 11:23 Kill: 0 4 19: ARP killed CLeOpatra by UT_MOD_LR300
+ 11:23 Item: 9 ut_weapon_m4
+ 11:28 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 11:29 Item: 9 ut_weapon_m4
+ 11:29 Item: 9 team_CTF_redflag
+ 11:32 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+ 11:32 Flag: 9 0: team_CTF_redflag
+ 11:33 Flag: 1 1: team_CTF_redflag
+ 11:35 Kill: 8 4 20: Kitty killed CLeOpatra by UT_MOD_G36
+ 11:37 Item: 1 ut_weapon_grenade_smoke
+ 11:38 Kill: 0 7 19: ARP killed ChickMagnet by UT_MOD_LR300
+ 11:38 Item: 5 ut_weapon_beretta
+ 11:39 say: 9 Dr.MoMo: campeurs!
+ 11:40 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 11:43 Item: 5 ut_weapon_beretta
+ 11:46 Kill: 6 0 28: Doms killed ARP by UT_MOD_SR8
+ 11:47 Kill: 3 6 20: Maud killed Doms by UT_MOD_G36
+ 11:48 Item: 5 ut_weapon_beretta
+ 11:48 Item: 1 team_CTF_blueflag
+ 11:50 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 11:50 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+ 11:50 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+ 11:50 Item: 7 ut_weapon_beretta
+ 11:51 Kill: 8 4 20: Kitty killed CLeOpatra by UT_MOD_G36
+ 11:51 Item: 7 ut_weapon_grenade_he
+ 11:52 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GeAAWRV\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 11:52 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 11:53 Kill: 4 1 23: CLeOpatra killed GRANSAC by UT_MOD_BLED
+ 11:53 Flag: 1 0: team_CTF_blueflag
+ 11:55 Kill: 3 7 18: Maud killed ChickMagnet by UT_MOD_MP5K
+ 12:02 Item: 8 ut_weapon_grenade_smoke
+ 12:02 Item: 8 team_CTF_blueflag
+ 12:05 Item: 7 ut_weapon_grenade_he
+ 12:07 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 12:07 Flag: 8 0: team_CTF_blueflag
+ 12:07 Item: 7 ut_weapon_grenade_smoke
+ 12:07 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 12:08 Flag: 7 1: team_CTF_blueflag
+ 12:08 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+ 12:09 Item: 7 ut_weapon_beretta
+ 12:09 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+ 12:10 Kill: 5 1 19: mazhe killed GRANSAC by UT_MOD_LR300
+ 12:12 say: 1 GRANSAC: !!!
+ 12:12 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+ 12:12 Item: 7 ut_weapon_m4
+ 12:13 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 12:13 Item: 5 ut_weapon_grenade_smoke
+ 12:13 Item: 5 ut_weapon_grenade_he
+ 12:14 Item: 5 ut_weapon_beretta
+ 12:15 say: 8 Kitty: :(
+ 12:20 Item: 9 ut_weapon_m4
+ 12:21 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 12:22 Item: 5 ut_weapon_beretta
+ 12:23 Item: 7 ut_weapon_grenade_he
+ 12:23 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 12:23 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+ 12:23 Item: 7 ut_weapon_grenade_smoke
+ 12:25 Item: 0 ut_weapon_grenade_he
+ 12:26 Kill: 3 6 20: Maud killed Doms by UT_MOD_G36
+ 12:28 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+ 12:28 Item: 1 ut_weapon_beretta
+ 12:29 Item: 0 ut_weapon_m4
+ 12:32 Item: 0 ut_weapon_m4
+ 12:33 Item: 0 team_CTF_blueflag
+ 12:33 Kill: 8 9 20: Kitty killed Dr.MoMo by UT_MOD_G36
+ 12:34 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+ 12:34 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+ 12:34 Flag: 0 0: team_CTF_blueflag
+ 12:36 Flag: 7 1: team_CTF_blueflag
+ 12:36 Item: 7 ut_weapon_grenade_he
+ 12:36 Item: 7 ut_weapon_m4
+ 12:41 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 12:41 Item: 5 ut_weapon_beretta
+ 12:42 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+ 12:48 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+ 12:48 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 12:48 Item: 5 ut_weapon_grenade_he
+ 12:48 Item: 5 ut_weapon_beretta
+ 12:49 Kill: 1 9 23: GRANSAC killed Dr.MoMo by UT_MOD_BLED
+ 12:49 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+ 12:50 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 12:53 Item: 5 team_CTF_blueflag
+ 12:55 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 12:55 Flag: 5 0: team_CTF_blueflag
+ 12:56 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GNAQWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 12:56 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 12:56 Flag: 4 1: team_CTF_blueflag
+ 13:01 Item: 3 ut_weapon_g36
+ 13:02 Item: 3 ut_weapon_mp5k
+ 13:05 Kill: 6 8 17: Doms killed Kitty by UT_MOD_UMP45
+ 13:05 Item: 1 ut_weapon_grenade_he
+ 13:07 Item: 7 ut_weapon_beretta
+ 13:08 Item: 4 ut_weapon_g36
+ 13:09 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 13:09 Item: 4 ut_weapon_beretta
+ 13:09 Kill: 3 9 20: Maud killed Dr.MoMo by UT_MOD_G36
+ 13:10 Item: 7 ut_weapon_grenade_smoke
+ 13:10 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+ 13:10 Item: 7 ut_weapon_m4
+ 13:10 Item: 7 ut_weapon_beretta
+ 13:11 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+ 13:13 Item: 2 ut_weapon_mp5k
+ 13:14 Kill: 1 7 14: GRANSAC killed ChickMagnet by UT_MOD_BERETTA
+ 13:14 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+ 13:15 Item: 2 ut_weapon_grenade_he
+ 13:15 Item: 2 ut_weapon_m4
+ 13:15 Item: 2 ut_weapon_beretta
+ 13:16 Item: 2 ut_weapon_grenade_smoke
+ 13:16 Item: 4 ut_weapon_beretta
+ 13:17 Item: 4 team_CTF_redflag
+ 13:18 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+ 13:18 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 13:18 Flag: 4 0: team_CTF_redflag
+ 13:19 Item: 3 ut_weapon_beretta
+ 13:20 Kill: 0 2 21: ARP killed HankMoody by UT_MOD_PSG1
+ 13:21 Item: 3 ut_weapon_beretta
+ 13:21 Flag: 3 1: team_CTF_redflag
+ 13:22 Item: 3 ut_weapon_grenade_he
+ 13:22 Item: 3 ut_weapon_g36
+ 13:24 Item: 1 ut_weapon_grenade_smoke
+ 13:25 Item: 8 ut_weapon_ump45
+ 13:25 Item: 8 ut_weapon_deagle
+ 13:25 Item: 8 ut_weapon_g36
+ 13:25 Item: 1 ut_weapon_mp5k
+ 13:25 Item: 1 ut_weapon_beretta
+ 13:26 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+ 13:30 Kill: 8 1 20: Kitty killed GRANSAC by UT_MOD_G36
+ 13:31 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 13:33 Item: 5 ut_weapon_lr
+ 13:34 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAAVWR\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+ 13:34 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 13:37 Item: 5 ut_weapon_lr
+ 13:37 Item: 3 ut_weapon_g36
+ 13:40 Kill: 0 9 21: ARP killed Dr.MoMo by UT_MOD_PSG1
+ 13:41 Kill: 8 2 20: Kitty killed HankMoody by UT_MOD_G36
+ 13:42 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 13:42 Item: 4 ut_weapon_beretta
+ 13:45 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 13:46 Kill: 6 8 28: Doms killed Kitty by UT_MOD_SR8
+ 13:50 Item: 2 ut_weapon_m4
+ 13:52 Kill: 0 7 21: ARP killed ChickMagnet by UT_MOD_PSG1
+ 13:53 Item: 3 ut_weapon_g36
+ 13:53 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+ 14:04 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+ 14:06 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+ 14:06 Item: 7 ut_weapon_m4
+ 14:11 Item: 2 ut_weapon_beretta
+ 14:11 Item: 2 ut_weapon_beretta
+ 14:11 Kill: 8 2 20: Kitty killed HankMoody by UT_MOD_G36
+ 14:12 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 14:14 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GNIAWRA\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 14:14 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 14:14 Kill: 7 8 38: ChickMagnet killed Kitty by UT_MOD_M4
+ 14:14 Kill: 1 7 14: GRANSAC killed ChickMagnet by UT_MOD_BERETTA
+ 14:15 Item: 4 ut_weapon_beretta
+ 14:15 Item: 4 ut_weapon_mp5k
+ 14:23 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 14:24 Item: 1 ut_weapon_g36
+ 14:24 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 14:25 Item: 3 ut_weapon_beretta
+ 14:26 Kill: 7 1 38: ChickMagnet killed GRANSAC by UT_MOD_M4
+ 14:26 Item: 3 ut_weapon_beretta
+ 14:26 Item: 3 ut_weapon_g36
+ 14:26 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+ 14:26 Item: 3 ut_weapon_beretta
+ 14:27 Item: 3 ut_weapon_beretta
+ 14:28 Item: 3 ut_weapon_mp5k
+ 14:29 Kill: 0 9 21: ARP killed Dr.MoMo by UT_MOD_PSG1
+ 14:32 Item: 0 ut_weapon_deagle
+ 14:34 Kill: 2 8 38: HankMoody killed Kitty by UT_MOD_M4
+ 14:35 Kill: 6 0 17: Doms killed ARP by UT_MOD_UMP45
+ 14:36 Item: 1 ut_weapon_beretta
+ 14:36 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 14:39 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+ 14:43 Item: 7 team_CTF_redflag
+ 14:47 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 14:48 Kill: 9 3 38: Dr.MoMo killed Maud by UT_MOD_M4
+ 14:48 Item: 8 ut_weapon_g36
+ 14:48 Item: 8 ut_weapon_mp5k
+ 14:49 Item: 5 ut_weapon_beretta
+ 14:49 Item: 5 ut_weapon_grenade_he
+ 14:50 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+ 14:52 Flag: 7 2: team_CTF_blueflag
+ 14:52 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 14:54 Item: 2 ut_weapon_m4
+ 14:54 Item: 2 ut_weapon_beretta
+ 14:55 Kill: 8 6 20: Kitty killed Doms by UT_MOD_G36
+ 14:55 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+ 14:56 Item: 8 ut_weapon_deagle
+ 14:58 Item: 1 team_CTF_blueflag
+ 14:58 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+ 14:58 Flag: 1 0: team_CTF_blueflag
+ 15:01 Flag: 2 1: team_CTF_blueflag
+ 15:02 Item: 3 ut_weapon_beretta
+ 15:05 Item: 4 ut_weapon_beretta
+ 15:06 Item: 4 ut_weapon_beretta
+ 15:07 Kill: 8 2 20: Kitty killed HankMoody by UT_MOD_G36
+ 15:10 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 15:11 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+ 15:12 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+ 15:12 Item: 3 ut_weapon_grenade_he
+ 15:12 Item: 3 ut_weapon_beretta
+ 15:12 Item: 3 ut_weapon_g36
+ 15:15 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+ 15:16 Item: 1 ut_weapon_ump45
+ 15:16 Item: 1 ut_weapon_beretta
+ 15:18 Item: 1 team_CTF_blueflag
+ 15:19 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 15:20 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+ 15:20 Flag: 1 0: team_CTF_blueflag
+ 15:20 Kill: 4 2 20: CLeOpatra killed HankMoody by UT_MOD_G36
+ 15:21 Item: 5 team_CTF_blueflag
+ 15:21 Item: 4 ut_weapon_beretta
+ 15:21 Kill: 9 5 38: Dr.MoMo killed mazhe by UT_MOD_M4
+ 15:21 Flag: 5 0: team_CTF_blueflag
+ 15:22 Item: 9 ut_weapon_ump45
+ 15:22 Item: 4 ut_weapon_g36
+ 15:23 Flag: 4 1: team_CTF_blueflag
+ 15:29 Kill: 3 9 20: Maud killed Dr.MoMo by UT_MOD_G36
+ 15:34 Item: 2 ut_weapon_m4
+ 15:35 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+ 15:37 Item: 1 ut_weapon_grenade_he
+ 15:37 Item: 1 ut_weapon_g36
+ 15:38 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+ 15:39 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+ 15:39 Item: 5 ut_weapon_grenade_he
+ 15:39 Item: 5 ut_weapon_beretta
+ 15:39 Item: 7 ut_weapon_beretta
+ 15:40 Item: 7 ut_weapon_mp5k
+ 15:45 Item: 7 team_CTF_redflag
+ 15:46 Kill: 8 7 20: Kitty killed ChickMagnet by UT_MOD_G36
+ 15:46 Flag: 7 0: team_CTF_redflag
+ 15:47 Item: 5 ut_weapon_beretta
+ 15:49 Item: 2 ut_weapon_m4
+ 15:50 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+ 15:50 Item: 2 ut_weapon_beretta
+ 15:50 Flag: 3 1: team_CTF_redflag
+ 15:50 Kill: 0 4 21: ARP killed CLeOpatra by UT_MOD_PSG1
+ 15:51 Kill: 0 9 21: ARP killed Dr.MoMo by UT_MOD_PSG1
+ 15:52 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+ 15:53 Kill: 0 2 21: ARP killed HankMoody by UT_MOD_PSG1
+ 16:00 Item: 3 ut_weapon_grenade_he
+ 16:01 Item: 3 ut_weapon_g36
+ 16:04 Item: 7 ut_weapon_grenade_he
+ 16:04 Item: 4 ut_weapon_g36
+ 16:04 Item: 7 ut_weapon_beretta
+ 16:05 Kill: 5 6 19: mazhe killed Doms by UT_MOD_LR300
+ 16:07 Kill: 2 0 38: HankMoody killed ARP by UT_MOD_M4
+ 16:08 Item: 2 ut_weapon_mp5k
+ 16:08 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 16:10 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 16:13 Item: 5 ut_weapon_grenade_he
+ 16:15 Kill: 0 4 23: ARP killed CLeOpatra by UT_MOD_BLED
+ 16:15 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GcAAWRU\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 16:15 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 16:20 Item: 7 ut_weapon_grenade_he
+ 16:20 Item: 8 ut_weapon_grenade_he
+ 16:21 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+ 16:21 Item: 2 ut_weapon_beretta
+ 16:22 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+ 16:22 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+ 16:24 Item: 8 team_CTF_blueflag
+ 16:24 Kill: 6 8 28: Doms killed Kitty by UT_MOD_SR8
+ 16:24 Flag: 8 0: team_CTF_blueflag
+ 16:26 Item: 1 team_CTF_blueflag
+ 16:26 Item: 1 ut_weapon_grenade_he
+ 16:27 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+ 16:30 Item: 3 ut_weapon_beretta
+ 16:31 Item: 3 ut_weapon_g36
+ 16:32 Kill: 2 0 38: HankMoody killed ARP by UT_MOD_M4
+ 16:33 Item: 6 ut_weapon_sr8
+ 16:33 Item: 6 ut_weapon_ump45
+ 16:33 Exit: Timelimit hit.
+ 16:33 red:5  blue:4
+ 16:33 score: 224  ping: 0  client: 1 GRANSAC
+ 16:33 score: 161  ping: 3  client: 0 ARP
+ 16:33 score: 130  ping: 3  client: 2 HankMoody
+ 16:33 score: 127  ping: 3  client: 7 ChickMagnet
+ 16:33 score: 123  ping: 8  client: 3 Maud
+ 16:33 score: 123  ping: 7  client: 5 mazhe
+ 16:33 score: 115  ping: 4  client: 8 Kitty
+ 16:33 score: 107  ping: 1  client: 4 CLeOpatra
+ 16:33 score: 84  ping: 0  client: 9 Dr.MoMo
+ 16:33 score: 73  ping: 9  client: 6 Doms
+ 16:33 Flag: 1 2: team_CTF_redflag
+ 16:36 say: 9 Dr.MoMo: NON
+ 16:41 say: 6 Doms: trop long le respawn
+ 16:42 say: 7 ChickMagnet: gg
+ 16:43 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GeAAWRU\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 16:43 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 16:44 say: 1 GRANSAC: GG
+ 16:45 say: 7 ChickMagnet: ouais
+ 16:48 say: 6 Doms: cafe
+ 16:49 ShutdownGame:
+ 16:49 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_subway\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:00 Warmup:
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GeAAWRU\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 0 n\ARP\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAARWU\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+  0:00 ClientUserinfoChanged: 1 n\GRANSAC\t\1\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FeAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 2 n\HankMoody\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfo: 3 \ip\194.199.21.173:27960\name\Maud\racered\1\raceblue\1\rate\8000\ut_timenudge\0\cg_rgb\255 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMIARWA\teamtask\0\cl_guid\485E61AD8768629837F4C44536C8C00B\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 3 n\Maud\t\1\r\1\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\255
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 4 n\CLeOpatra\t\2\r\0\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\0
+  0:00 ClientConnect: 5
+  0:00 ClientUserinfo: 5 \ip\194.199.23.184:27960\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\gear\FLAAVRX\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 5 n\mazhe\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:00 ClientConnect: 6
+  0:00 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 6 n\Doms\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:00 ClientConnect: 7
+  0:00 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+  0:00 ClientUserinfoChanged: 7 n\ChickMagnet\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+  0:00 ClientConnect: 8
+  0:00 ClientUserinfo: 8 \ip\194.199.23.175:27960\name\Kitty\racered\0\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GMAARWA\teamtask\0\cl_guid\7A8E0DE310F1739DCD9AADD8F3C9B6D9\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 8 n\Kitty\t\1\r\0\tl\0\f0\\f1\\f2\\a0\255\a1\255\a2\0
+  0:00 ClientConnect: 9
+  0:00 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAAVWR\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  0:00 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:07 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020000
+  0:07 ClientUserinfoChanged: 6 n\Doms\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:07 ClientBegin: 6
+  0:08 ClientBegin: 4
+  0:08 say: 0 Dr.MoMo: je t'ai touche 3 fois
+  0:08 ClientBegin: 9
+  0:08 ClientBegin: 8
+  0:08 ClientBegin: 3
+  0:10 ClientDisconnect: 8
+  0:10 ClientBegin: 7
+  0:11 ClientBegin: 2
+  0:12 ClientBegin: 1
+  0:15 say: 2 HankMoody: ouii
+  0:17 ClientDisconnect: 5
+  0:18 ClientBegin: 0
+  0:22 ------------------------------------------------------------
+  0:22 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_subway\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+  0:24 ClientConnect: 5
+  0:24 ClientUserinfo: 5 \ip\194.199.23.184:27960\challenge\-492356553\qport\228\protocol\68\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\gear\FLAAVRX\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  0:24 ClientUserinfoChanged: 5 n\mazhe\t\3\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:24 say: 7 ChickMagnet: bon diminue le respawn:
+  0:25 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FeJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020000
+  0:25 ClientUserinfoChanged: 6 n\Doms\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:29 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GcAQUWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  0:29 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  0:36 Kill: 9 6 38: Dr.MoMo killed Doms by UT_MOD_M4
+  0:39 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  0:40 ClientBegin: 5
+  0:40 Item: 7 ut_weapon_beretta
+  0:41 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  0:48 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  0:49 Kill: 5 5 10: mazhe killed mazhe by MOD_CHANGE_TEAM
+  0:49 ClientUserinfo: 5 \ip\194.199.23.184:27960\challenge\-492356553\qport\228\protocol\68\name\mazhe\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 0\cg_predictitems\0\cg_physics\1\gear\FLAAVRX\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\B5C3E46F19ED81BD97274D2F233B44D4\weapmodes\00000110220000020002
+  0:49 ClientUserinfoChanged: 5 n\mazhe\t\1\r\2\tl\0\f0\\f1\\f2\\a0\255\a1\0\a2\0
+  0:49 ClientBegin: 5
+  0:49 Item: 7 ut_weapon_ump45
+  0:50 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+  0:50 Item: 4 ut_weapon_beretta
+  0:56 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  0:59 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  1:01 Item: 7 ut_weapon_m4
+  1:01 Item: 4 ut_weapon_beretta
+  1:01 Item: 4 ut_weapon_g36
+  1:04 Item: 2 ut_weapon_m4
+  1:04 Item: 7 ut_weapon_beretta
+  1:04 Item: 7 ut_weapon_grenade_he
+  1:06 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  1:07 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  1:08 Item: 6 ut_weapon_ump45
+  1:11 Item: 0 ut_weapon_grenade_he
+  1:11 Item: 0 ut_weapon_m4
+  1:12 Item: 1 ut_weapon_beretta
+  1:15 Item: 6 ut_weapon_m4
+  1:15 Item: 6 ut_weapon_grenade_he
+  1:15 Kill: 4 0 20: CLeOpatra killed ARP by UT_MOD_G36
+  1:18 Kill: 9 1 35: Dr.MoMo killed GRANSAC by UT_MOD_NEGEV
+  1:18 Item: 5 ut_weapon_grenade_he
+  1:19 Item: 6 ut_weapon_beretta
+  1:23 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  1:31 Item: 7 ut_weapon_grenade_he
+  1:39 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  1:41 Item: 7 ut_weapon_beretta
+  1:41 Item: 4 ut_weapon_beretta
+  1:44 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  1:45 Item: 7 team_CTF_redflag
+  1:49 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  1:49 Kill: 0 5 38: ARP killed mazhe by UT_MOD_M4
+  1:55 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  1:59 Kill: 0 6 15: ARP killed Doms by UT_MOD_DEAGLE
+  2:03 Kill: 3 9 20: Maud killed Dr.MoMo by UT_MOD_G36
+  2:03 Item: 0 ut_weapon_ump45
+  2:03 Item: 0 ut_weapon_m4
+  2:04 Item: 5 ut_weapon_beretta
+  2:04 Item: 5 ut_weapon_grenade_he
+  2:06 Item: 5 ut_weapon_beretta
+  2:06 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  2:08 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  2:08 Item: 5 ut_weapon_lr
+  2:11 Flag: 7 2: team_CTF_blueflag
+  2:12 Item: 1 ut_weapon_beretta
+  2:12 Item: 1 ut_weapon_g36
+  2:12 Item: 1 ut_weapon_beretta
+  2:12 Item: 1 ut_weapon_grenade_he
+  2:12 Item: 5 ut_weapon_beretta
+  2:14 Item: 1 team_CTF_blueflag
+  2:14 Item: 3 ut_weapon_grenade_he
+  2:16 Kill: 3 6 20: Maud killed Doms by UT_MOD_G36
+  2:17 Item: 7 ut_weapon_ump45
+  2:17 Item: 7 ut_weapon_m4
+  2:17 Item: 7 ut_weapon_beretta
+  2:17 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  2:20 Kill: 9 3 35: Dr.MoMo killed Maud by UT_MOD_NEGEV
+  2:21 Item: 2 ut_weapon_m4
+  2:30 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  2:31 Kill: 2 0 38: HankMoody killed ARP by UT_MOD_M4
+  2:33 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  2:37 Item: 5 ut_weapon_ump45
+  2:44 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  2:46 Kill: 6 5 38: Doms killed mazhe by UT_MOD_M4
+  2:50 Flag: 1 2: team_CTF_redflag
+  2:50 Item: 4 ut_weapon_mp5k
+  2:50 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+  2:56 Item: 2 ut_weapon_ump45
+  2:56 Item: 2 ut_weapon_beretta
+  2:56 Item: 2 ut_weapon_beretta
+  2:57 Item: 2 ut_weapon_beretta
+  2:59 Item: 4 ut_weapon_beretta
+  3:00 Item: 0 ut_weapon_grenade_smoke
+  3:08 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+  3:09 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  3:10 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  3:10 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  3:13 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  3:16 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  3:16 Item: 4 ut_weapon_beretta
+  3:18 Item: 1 ut_weapon_ump45
+  3:18 say: 6 Doms: putain de tuyau
+  3:19 Item: 1 ut_weapon_beretta
+  3:26 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  3:30 Item: 4 ut_weapon_beretta
+  3:30 Item: 4 ut_weapon_beretta
+  3:31 Kill: 6 1 38: Doms killed GRANSAC by UT_MOD_M4
+  3:31 Item: 6 ut_weapon_beretta
+  3:31 Item: 6 ut_weapon_grenade_he
+  3:31 Item: 6 ut_weapon_ump45
+  3:38 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  3:38 Item: 3 ut_weapon_mp5k
+  3:38 Item: 3 ut_weapon_beretta
+  3:38 Item: 3 ut_weapon_g36
+  3:38 Item: 3 ut_weapon_grenade_he
+  3:39 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+  3:40 Item: 7 ut_weapon_beretta
+  3:41 Kill: 4 3 23: CLeOpatra killed Maud by UT_MOD_BLED
+  3:46 Item: 2 ut_weapon_m4
+  3:47 Item: 7 team_CTF_redflag
+  3:47 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  3:47 Flag: 7 0: team_CTF_redflag
+  3:49 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  3:50 Flag: 5 1: team_CTF_redflag
+  3:51 Item: 1 ut_weapon_grenade_smoke
+  3:53 Item: 5 ut_weapon_mp5k
+  3:54 Item: 5 ut_weapon_beretta
+  3:54 Item: 5 ut_weapon_grenade_he
+  3:56 Item: 3 ut_weapon_g36
+  3:57 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  4:00 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GcAAUWR\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  4:00 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  4:02 Item: 1 ut_weapon_grenade_he
+  4:02 Item: 1 ut_weapon_ump45
+  4:12 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  4:13 Item: 7 ut_weapon_mp5k
+  4:15 Item: 2 ut_weapon_beretta
+  4:15 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  4:17 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  4:17 Item: 2 ut_weapon_m4
+  4:18 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  4:18 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+  4:22 Item: 1 ut_weapon_ump45
+  4:22 Item: 1 ut_weapon_beretta
+  4:24 Kill: 4 3 20: CLeOpatra killed Maud by UT_MOD_G36
+  4:29 say: 9 Dr.MoMo: c pas possible gansac c matrx
+  4:30 Item: 5 ut_weapon_beretta
+  4:31 Item: 5 ut_weapon_mp5k
+  4:32 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  4:34 Item: 4 ut_weapon_beretta
+  4:34 Item: 4 ut_weapon_mp5k
+  4:35 Item: 4 ut_weapon_g36
+  4:36 say: 9 Dr.MoMo: ravers les balles
+  4:38 Item: 0 ut_weapon_m4
+  4:38 Item: 0 ut_weapon_grenade_he
+  4:39 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  4:40 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  4:42 Item: 1 ut_weapon_beretta
+  4:44 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  4:45 Kill: 6 1 38: Doms killed GRANSAC by UT_MOD_M4
+  4:46 Item: 6 ut_weapon_grenade_he
+  4:47 Item: 6 ut_weapon_grenade_smoke
+  4:50 say: 6 Doms: campouse
+  4:56 Item: 3 ut_weapon_beretta
+  4:58 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  5:01 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  5:02 Item: 5 ut_weapon_lr
+  5:09 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  5:09 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  5:10 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  5:13 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  5:13 Item: 1 ut_weapon_grenade_smoke
+  5:13 Item: 1 ut_weapon_beretta
+  5:13 Item: 1 ut_weapon_ump45
+  5:14 Item: 1 ut_weapon_grenade_he
+  5:14 Item: 5 ut_weapon_beretta
+  5:15 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  5:18 Kill: 9 1 35: Dr.MoMo killed GRANSAC by UT_MOD_NEGEV
+  5:19 Item: 9 ut_weapon_grenade_he
+  5:19 ClientUserinfo: 6 \ip\194.199.23.131:27960\name\Doms\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\FZJARWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\ECB0F1FC0093EADE6CDE0D3A1BE96DA1\weapmodes\00000110220000020000
+  5:19 ClientUserinfoChanged: 6 n\Doms\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  5:22 Item: 9 ut_weapon_grenade_smoke
+  5:24 Item: 4 ut_weapon_g36
+  5:24 Item: 4 ut_weapon_beretta
+  5:24 Item: 7 ut_weapon_m4
+  5:25 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+  5:26 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  5:27 Item: 3 ut_weapon_grenade_smoke
+  5:29 Item: 0 ut_weapon_m4
+  5:29 Item: 0 ut_weapon_ump45
+  5:29 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  5:30 Item: 0 ut_weapon_m4
+  5:36 Item: 4 ut_weapon_beretta
+  5:41 Item: 1 ut_weapon_g36
+  5:41 Item: 2 ut_weapon_beretta
+  5:42 Item: 1 ut_weapon_beretta
+  5:43 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  5:45 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  5:46 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  5:48 Item: 7 ut_weapon_grenade_he
+  5:48 Item: 7 ut_weapon_beretta
+  5:49 Item: 2 ut_weapon_beretta
+  5:51 Item: 7 ut_weapon_mp5k
+  5:51 Item: 7 ut_weapon_grenade_smoke
+  5:51 Item: 7 ut_weapon_beretta
+  6:03 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  6:04 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  6:06 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  6:07 Item: 5 ut_weapon_grenade_he
+  6:07 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  6:08 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  6:10 Item: 1 team_CTF_blueflag
+  6:13 Item: 1 ut_weapon_ump45
+  6:13 Item: 1 ut_weapon_beretta
+  6:17 Item: 3 ut_weapon_beretta
+  6:20 Item: 5 ut_weapon_lr
+  6:28 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  6:29 Item: 7 ut_weapon_grenade_he
+  6:29 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  6:30 Kill: 2 0 38: HankMoody killed ARP by UT_MOD_M4
+  6:34 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  6:35 Item: 2 ut_weapon_beretta
+  6:35 Item: 2 ut_weapon_m4
+  6:35 Item: 2 ut_weapon_beretta
+  6:35 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  6:39 Item: 2 ut_weapon_beretta
+  6:42 Flag: 1 2: team_CTF_redflag
+  6:43 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  6:49 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  6:50 Item: 4 ut_weapon_g36
+  6:50 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAQVWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+  6:50 ClientUserinfoChanged: 9 n\Dr.MoMo\t\2\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+  6:53 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  6:56 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+  7:00 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  7:08 Item: 3 ut_weapon_beretta
+  7:09 Kill: 0 6 38: ARP killed Doms by UT_MOD_M4
+  7:11 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+  7:14 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  7:15 Item: 7 ut_weapon_grenade_he
+  7:15 Item: 7 ut_weapon_m4
+  7:16 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  7:21 Item: 0 ut_weapon_m4
+  7:26 Item: 3 ut_weapon_beretta
+  7:26 Item: 0 ut_weapon_ump45
+  7:27 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  7:29 Kill: 2 3 38: HankMoody killed Maud by UT_MOD_M4
+  7:31 Kill: 9 0 38: Dr.MoMo killed ARP by UT_MOD_M4
+  7:36 Item: 1 ut_weapon_ump45
+  7:36 Item: 1 ut_weapon_beretta
+  7:36 Item: 1 ut_weapon_g36
+  7:40 Item: 7 ut_weapon_ump45
+  7:43 Kill: 1 6 20: GRANSAC killed Doms by UT_MOD_G36
+  7:43 Kill: 3 9 20: Maud killed Dr.MoMo by UT_MOD_G36
+  7:43 Item: 2 ut_weapon_grenade_smoke
+  7:43 Kill: 5 2 19: mazhe killed HankMoody by UT_MOD_LR300
+  7:45 Item: 5 ut_weapon_grenade_he
+  7:45 Item: 5 ut_weapon_beretta
+  7:46 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+  7:47 say: 1 GRANSAC: TIENS !!
+  7:49 Item: 1 ut_weapon_ump45
+  7:50 Item: 7 ut_weapon_grenade_he
+  7:53 Kill: 1 9 20: GRANSAC killed Dr.MoMo by UT_MOD_G36
+  7:54 Item: 7 ut_weapon_m4
+  7:56 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  7:56 Item: 7 ut_weapon_m4
+  7:57 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  7:58 Item: 1 team_CTF_blueflag
+  8:02 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  8:04 Kill: 6 1 17: Doms killed GRANSAC by UT_MOD_UMP45
+  8:04 Flag: 1 0: team_CTF_blueflag
+  8:04 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  8:06 Flag: 6 1: team_CTF_blueflag
+  8:06 Item: 6 ut_weapon_ump45
+  8:07 Item: 6 ut_weapon_beretta
+  8:08 say: 6 Doms: tu disais
+  8:09 Item: 9 ut_weapon_deagle
+  8:09 say: 1 GRANSAC: OUPS
+  8:11 Item: 0 ut_weapon_deagle
+  8:11 Item: 0 ut_weapon_ump45
+  8:13 Item: 5 ut_weapon_lr
+  8:14 Item: 3 ut_weapon_g36
+  8:18 Kill: 3 7 20: Maud killed ChickMagnet by UT_MOD_G36
+  8:21 Item: 5 ut_weapon_beretta
+  8:24 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  8:27 Item: 2 ut_weapon_beretta
+  8:32 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+  8:32 Item: 9 ut_weapon_m4
+  8:33 Item: 9 ut_weapon_grenade_he
+  8:33 Item: 9 ut_weapon_m4
+  8:36 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+  8:39 Item: 4 ut_weapon_beretta
+  8:41 Item: 0 ut_weapon_deagle
+  8:42 Item: 0 ut_weapon_m4
+  8:42 Item: 0 ut_weapon_grenade_he
+  8:42 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  8:45 Kill: 0 7 38: ARP killed ChickMagnet by UT_MOD_M4
+  8:46 Item: 5 ut_weapon_beretta
+  8:54 Item: 5 ut_weapon_beretta
+  8:55 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  8:56 Kill: 9 1 38: Dr.MoMo killed GRANSAC by UT_MOD_M4
+  8:59 Kill: 5 9 19: mazhe killed Dr.MoMo by UT_MOD_LR300
+  9:00 Kill: 0 6 38: ARP killed Doms by UT_MOD_M4
+  9:02 Kill: 2 5 38: HankMoody killed mazhe by UT_MOD_M4
+  9:02 Item: 2 ut_weapon_beretta
+  9:04 Kill: 0 2 38: ARP killed HankMoody by UT_MOD_M4
+  9:05 Kill: 7 0 38: ChickMagnet killed ARP by UT_MOD_M4
+  9:08 Item: 7 ut_weapon_ump45
+  9:11 Item: 4 ut_weapon_beretta
+  9:11 Item: 4 ut_weapon_beretta
+  9:13 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+  9:25 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+  9:26 Kill: 3 4 20: Maud killed CLeOpatra by UT_MOD_G36
+  9:27 Item: 5 ut_weapon_ump45
+  9:29 Item: 5 ut_weapon_grenade_he
+  9:30 Kill: 1 2 20: GRANSAC killed HankMoody by UT_MOD_G36
+  9:35 Item: 3 ut_weapon_g36
+  9:36 Item: 1 ut_weapon_grenade_he
+  9:36 Item: 1 ut_weapon_beretta
+  9:39 Kill: 1 7 20: GRANSAC killed ChickMagnet by UT_MOD_G36
+  9:39 Kill: 1 4 20: GRANSAC killed CLeOpatra by UT_MOD_G36
+  9:44 Item: 1 ut_weapon_beretta
+  9:46 Kill: 5 6 19: mazhe killed Doms by UT_MOD_LR300
+  9:46 Item: 1 team_CTF_blueflag
+  9:48 Kill: 2 1 38: HankMoody killed GRANSAC by UT_MOD_M4
+  9:48 Flag: 1 0: team_CTF_blueflag
+  9:49 Flag: 2 1: team_CTF_blueflag
+  9:51 Item: 5 team_CTF_blueflag
+  9:51 Kill: 7 5 38: ChickMagnet killed mazhe by UT_MOD_M4
+  9:51 Flag: 5 0: team_CTF_blueflag
+  9:51 Item: 2 ut_weapon_beretta
+  9:51 Item: 2 ut_weapon_ump45
+  9:52 Kill: 0 4 38: ARP killed CLeOpatra by UT_MOD_M4
+  9:52 Flag: 2 1: team_CTF_blueflag
+  9:54 Item: 7 ut_weapon_beretta
+  9:55 Item: 3 ut_weapon_beretta
+  9:56 Kill: 0 7 15: ARP killed ChickMagnet by UT_MOD_DEAGLE
+ 10:00 Kill: 3 2 20: Maud killed HankMoody by UT_MOD_G36
+ 10:04 Item: 6 ut_weapon_grenade_he
+ 10:04 Item: 0 ut_weapon_m4
+ 10:05 Item: 0 ut_weapon_m4
+ 10:05 Item: 0 ut_weapon_ump45
+ 10:06 Item: 7 ut_weapon_grenade_he
+ 10:06 Kill: 6 0 17: Doms killed ARP by UT_MOD_UMP45
+ 10:06 Item: 7 ut_weapon_beretta
+ 10:07 Item: 7 ut_weapon_m4
+ 10:07 Item: 7 ut_weapon_ump45
+ 10:07 Kill: 7 3 38: ChickMagnet killed Maud by UT_MOD_M4
+ 10:08 Item: 4 ut_weapon_beretta
+ 10:08 Item: 4 ut_weapon_g36
+ 10:13 Kill: 5 7 19: mazhe killed ChickMagnet by UT_MOD_LR300
+ 10:14 Item: 4 ut_weapon_beretta
+ 10:16 Item: 9 team_CTF_redflag
+ 10:17 Item: 4 ut_weapon_ump45
+ 10:19 Kill: 0 9 38: ARP killed Dr.MoMo by UT_MOD_M4
+ 10:19 Flag: 9 0: team_CTF_redflag
+ 10:20 Item: 0 ut_weapon_grenade_smoke
+ 10:20 Item: 0 ut_weapon_deagle
+ 10:20 Item: 0 ut_weapon_m4
+ 10:20 Flag: 0 1: team_CTF_redflag
+ 10:21 Kill: 4 5 20: CLeOpatra killed mazhe by UT_MOD_G36
+ 10:21 Item: 4 ut_weapon_beretta
+ 10:22 Exit: Timelimit hit.
+ 10:22 red:2  blue:1
+ 10:22 score: 51  ping: 0  client: 1 GRANSAC
+ 10:22 score: 49  ping: 3  client: 0 ARP
+ 10:22 score: 44  ping: 1  client: 5 mazhe
+ 10:22 score: 39  ping: 0  client: 3 Maud
+ 10:22 score: 29  ping: 0  client: 7 ChickMagnet
+ 10:22 score: 28  ping: 0  client: 2 HankMoody
+ 10:22 score: 22  ping: 1  client: 4 CLeOpatra
+ 10:22 score: 19  ping: 1  client: 6 Doms
+ 10:22 score: 19  ping: 0  client: 9 Dr.MoMo
+ 10:25 say: 9 Dr.MoMo: respawn de merde
+ 10:25 say: 6 Doms: cafe
+ 10:30 say: 6 Doms: tu m'etonnes
+ 10:30 say: 1 GRANSAC: CAFE
+ 10:34 say: 5 mazhe: cafe!!
+ 10:34 ClientDisconnect: 6
+ 10:37 say: 0 ARP: CAFE
+ 10:38 ------------------------------------------------------------
+ 10:38 InitRound: \sv_allowdownload\0\g_matchmode\0\g_gametype\7\sv_maxclients\16\sv_floodprotect\0\g_warmup\15\capturelimit\5\sv_hostname\PRIMA Server\g_followstrict\1\fraglimit\0\timelimit\10\g_cahtime\60\g_swaproles\1\g_roundtime\3\g_bombexplodetime\40\g_bombdefusetime\10\g_hotpotato\2\g_waverespawns\1\g_redwave\15\g_bluewave\15\g_respawndelay\8\g_suddendeath\1\g_maxrounds\0\g_friendlyfire\1\g_allowvote\1073741823\g_armbands\0\dmflags\0\sv_minRate\0\sv_maxRate\0\sv_minPing\0\sv_maxPing\0\sv_dlURL\www-prima.imag.fr/prima/people/emonet\g_maxGameClients\0\g_deadchat\1\g_gear\0\g_teamnamered\Linux Team\g_teamnameblue\MSWindows Team\g_survivorrule\0\version\ioq3 1.35urt linux-i386 Dec 20 2007\protocol\68\mapname\ut4_subway\sv_privateClients\0\ Admin\Mazhe\ Email\xxx@xxx.xxx\gamename\q3ut4\g_needpass\0\g_enableDust\0\g_enableBreath\0\g_antilagvis\0\g_survivor\0\g_enablePrecip\0\g_modversion\4.1
+ 10:38 ClientDisconnect: 3
+ 10:38 ClientDisconnect: 5
+ 10:38 Kill: 0 0 10: ARP killed ARP by MOD_CHANGE_TEAM
+ 10:38 ClientUserinfo: 0 \ip\194.199.23.151:27960\name\ARP\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 255 255\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\GeAAWRU\teamtask\0\cl_guid\0909F3DCA44ED3922CD726129DFCF42B\weapmodes\00000110220000020002
+ 10:38 ClientUserinfoChanged: 0 n\ARP\t\2\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\255\a2\255
+ 10:38 ClientBegin: 0
+ 10:38 Kill: 4 4 10: CLeOpatra killed CLeOpatra by MOD_CHANGE_TEAM
+ 10:38 ClientUserinfo: 4 \ip\194.199.23.173:27960\name\CLeOpatra\racered\1\raceblue\0\rate\8000\ut_timenudge\0\cg_rgb\0 255 0\funred\shades,ninja\cg_predictitems\0\cg_physics\1\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\gear\FMAORUA\teamtask\0\cl_guid\2205912EA85F855AA0D13D842ED10019\weapmodes\00000110220000020002
+ 10:38 ClientUserinfoChanged: 4 n\CLeOpatra\t\1\r\1\tl\0\f0\shades\f1\ninja\f2\\a0\0\a1\255\a2\0
+ 10:38 ClientBegin: 4
+ 10:38 Kill: 1 1 10: GRANSAC killed GRANSAC by MOD_CHANGE_TEAM
+ 10:38 ClientUserinfo: 1 \ip\194.199.23.170:27960\name\GRANSAC\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 0 255\funred\gasmask\funblue\gasmask\cg_predictitems\0\cg_physics\1\snaps\20\model\sarge\headmodel\sarge\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\gear\FMAARWU\teamtask\0\cl_guid\8FB632A74A93DE9A11AB341E3C6417C7\weapmodes\00000110220000020001
+ 10:38 ClientUserinfoChanged: 1 n\GRANSAC\t\2\r\2\tl\0\f0\gasmask\f1\\f2\\a0\255\a1\0\a2\255
+ 10:38 ClientBegin: 1
+ 10:38 Kill: 9 9 10: Dr.MoMo killed Dr.MoMo by MOD_CHANGE_TEAM
+ 10:38 ClientUserinfo: 9 \ip\194.199.21.75:27960\name\Dr. MoMo\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\128 128 128\cg_predictitems\0\cg_physics\1\gear\GeAQVWA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\326F01EFAB20EC0718B9672547764F78\weapmodes\00000110220000020002
+ 10:38 ClientUserinfoChanged: 9 n\Dr.MoMo\t\1\r\2\tl\0\f0\\f1\\f2\\a0\128\a1\128\a2\128
+ 10:38 ClientBegin: 9
+ 10:39 Kill: 2 2 10: HankMoody killed HankMoody by MOD_CHANGE_TEAM
+ 10:39 ClientUserinfo: 2 \ip\194.199.23.149:27960\name\Hank Moody\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\255 255 0\funred\ninja,goggles\funblue\gasmask\cg_predictitems\0\cg_physics\1\gear\FeAOWRA\cl_anonymous\0\sex\male\handicap\100\color2\5\color1\4\team_headmodel\*james\team_model\james\headmodel\sarge\model\sarge\snaps\20\teamtask\0\cl_guid\195CAF51AF1BC24E223F99B78EC3DFD4\weapmodes\00000110220000020002
+ 10:39 ClientUserinfoChanged: 2 n\HankMoody\t\1\r\2\tl\0\f0\ninja\f1\goggles\f2\\a0\255\a1\255\a2\0
+ 10:39 ClientBegin: 2
+ 10:39 Kill: 7 7 10: ChickMagnet killed ChickMagnet by MOD_CHANGE_TEAM
+ 10:39 ClientUserinfo: 7 \ip\194.199.23.148:27960\name\ChickMagnet\racered\2\raceblue\2\rate\8000\ut_timenudge\0\cg_rgb\0 0 255\cg_predictitems\0\cg_physics\1\gear\FeAAWRT\snaps\20\model\athena/desert_w\headmodel\athena/cobra_w\team_model\james\team_headmodel\*james\color1\4\color2\5\handicap\100\sex\male\cl_anonymous\0\teamtask\0\cl_guid\A5110D5013FB83395F590DECBBA63AEE\weapmodes\00000110200000020002
+ 10:39 ClientUserinfoChanged: 7 n\ChickMagnet\t\1\r\2\tl\0\f0\\f1\\f2\\a0\0\a1\0\a2\255
+ 10:39 ClientBegin: 7
+ 10:39 ClientDisconnect: 7
+ 10:40 ClientDisconnect: 4
+ 10:41 ClientDisconnect: 2
+ 10:43 ClientDisconnect: 0
+ 10:44 ClientDisconnect: 1
+ 10:44 Warmup:
+ 10:45 ClientDisconnect: 9

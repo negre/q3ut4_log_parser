@@ -22,7 +22,7 @@ db_conn = None
 def create_db():
 	global db_conn
 	db_conn = sqlite3.connect(':memory:')
-	db_conn.execute('create table frags (fragger text, fragged text)')
+	db_conn.execute('create table frags (fragger text, fragged text, weapon text)')
 	db_conn.execute('create table games (player text, start integer, stop integer)')
 	db_conn.commit()
 
@@ -43,8 +43,8 @@ def parse_log(logpath):
 		if (m):
 			# Update the frags table
 			db_conn.execute(
-					'''insert into frags values (?, ?)''', 
-					(m.group(1), m.group(2)))
+					'''insert into frags values (?, ?, ?)''', 
+					(m.group(1), m.group(2), m.group(3)))
 			continue
 
 		m = playerjoins_prog.match(logline)
@@ -255,6 +255,42 @@ order by sum(stop-start) desc
 		print "      <li>%s (%i:%i:%i)</li>" % (row[0], hours, minutes, seconds)
 	print "    </ol>"
 
+# 
+def favorite_weapons():
+	global db_conn
+	print "    <a name=\"6\"><h2>Favorite weapons per player</h2></a>"
+	curs = db_conn.cursor()
+	curs.execute('''
+select fragger, weapon, count(*) as frags 
+from frags 
+group by lower(fragger), lower(weapon) 
+order by lower(fragger) asc, count(*) desc
+''')
+	player = None
+	for row in curs:
+		if (player != row[0].lower()):
+			if (player):
+				print "    </table>"
+			print """\
+    <h3>%s weapons:</h3>
+    <table>\
+""" % cgi.escape(row[0])
+			player = row[0].lower()
+
+		print """\
+      <tr>
+        <td style="width: 180px;">%s</td>\
+""" % cgi.escape(row[1])
+		
+		bar_str = '        <td><span class="ascii-bar">'
+		for i in xrange(0, row[2]):
+			bar_str = ''.join([bar_str, '| '])
+		bar_str = ''.join([bar_str, '</span>&nbsp;', str(row[2]), '</td>'])
+		
+		print """%s
+      </tr>\
+""" % bar_str
+	print "    </table>"
 
 # Main function
 def main():
@@ -298,6 +334,7 @@ def main():
       <li><a href="#3">Frags/Deaths ratio-based ranking</a></li>
       <li><a href="#4">Frag-based ranking</a></li>
       <li><a href="#5">Presence-based ranking</a></li>
+      <li><a href="#6">Favorite weapons per player</a></li>	  
     </ul>\
 """
 
@@ -305,6 +342,8 @@ def main():
 	death_repartition()
 	fdratio_ranking()
 	frag_ranking()
+	favorite_weapons()
+	
 	#presence_ranking() # Buggued!
 
 	db_conn.close()

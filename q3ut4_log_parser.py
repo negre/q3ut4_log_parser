@@ -280,7 +280,7 @@ order by lower(fragger) asc, count(*) desc
 		print """\
       <tr>
         <td style="width: 180px;">%s</td>\
-""" % cgi.escape(row[1])
+""" % cgi.escape(row[1].replace('UT_MOD_', ''))
 		
 		bar_str = '        <td><span class="ascii-bar">'
 		for i in xrange(0, row[2]):

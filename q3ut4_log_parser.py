@@ -10,9 +10,12 @@ import sys
 
 # Patterns
 frag_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: (?!<world>)(.*) killed (.*) by (?!MOD_CHANGE_TEAM$|MOD_FALLING$|MOD_WATER$|MOD_LAVA$|UT_MOD_BLED$|UT_MOD_FLAG$)(.*)$")
-playerjoins_prog = re.compile(r'^ *([0-9]+):([0-9]+) ClientUserinfo: ([1-9]+) (.*)$')
-playerquits_prog = re.compile(r"^ *([0-9]+):([0-9]+) ClientDisconnect: ([1-9]+)$")
+playerjoins_prog = re.compile(r'^ *([0-9]+):([0-9]+) ClientUserinfo: ([0-9]+) (.*)$')
+playerquits_prog = re.compile(r"^ *([0-9]+):([0-9]+) ClientDisconnect: ([0-9]+)$")
 endgame_prog = re.compile(r"^ *([0-9]+):([0-9]+) ShutdownGame:$")
+item_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Item: ([0-9]+) (?!<world>)(.*)$")
+flag_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Flag: ([0-9]+) ([0-9]+): (.*)$")
+
 
 # Database connection
 db_conn = None
@@ -24,6 +27,7 @@ def create_db():
 	db_conn = sqlite3.connect(':memory:')
 	db_conn.execute('create table frags (fragger text, fragged text, weapon text)')
 	db_conn.execute('create table games (player text, start integer, stop integer)')
+	db_conn.execute('create table flags (player text, event text)')
 	db_conn.commit()
 
 
@@ -84,6 +88,33 @@ def parse_log(logpath):
 			idd = {}
 			continue
 
+		m = item_prog.match(logline)
+		if (m):
+			if( m.group(2) == "team_CTF_redflag" or m.group(2) == "team_CTF_blueflag" ):
+				db_conn.execute(
+					'''insert into flags values (?, ?)''', 
+					(idd[m.group(1)], "CATCH"))
+				pass
+			continue
+		
+		m = flag_prog.match(logline)
+		if (m):
+			if int(m.group(2)) == 0 :
+				db_conn.execute(
+					'''insert into flags values (?, ?)''', 
+					(idd[m.group(1)], "DROP"))
+				pass
+			elif int(m.group(2)) == 1 :
+				db_conn.execute(
+					'''insert into flags values (?, ?)''', 
+					(idd[m.group(1)], "RETURN"))
+				pass
+			elif int(m.group(2)) == 2 :
+				db_conn.execute(
+					'''insert into flags values (?, ?)''', 
+					(idd[m.group(1)], "CAPTURE"))
+				pass				
+			continue
 	db_conn.commit()
 	logf.close()
 
@@ -330,6 +361,62 @@ order by count(*) desc, lower(fragger) asc
 		print "      <li>%s (%s)</li>" % (row[0], row[1])
 	print "    </ol>"
 
+def capture_ranking():
+	global db_conn
+	print """\
+    <a name="9"><h2>Capture ranking</h2></a>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select player, count(*) as flags
+from flags
+where event = "CAPTURE"
+group by lower(player)
+order by count(*) desc, lower(player) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
+def attack_ranking():
+	global db_conn
+	print """\
+    <a name="10"><h2>Attack ranking</h2></a>
+	<paragraph> Number of flags catched </paragraph>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select player, count(*) as flags
+from flags
+where event = "CATCH"
+group by lower(player)
+order by count(*) desc, lower(player) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
+def defense_ranking():
+	global db_conn
+	print """\
+    <a name="11"><h2>Defense ranking</h2></a>
+	<paragraph> Number of flags returned </paragraph>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select player, count(*) as flags
+from flags
+where event = "RETURN"
+group by lower(player)
+order by count(*) desc, lower(player) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
 # Main function
 def main():
 	global db_conn
@@ -374,7 +461,10 @@ def main():
       <li><a href="#5">Presence-based ranking</a></li>
       <li><a href="#6">Favorite weapons per player</a></li>	  
       <li><a href="#7">Bomber ranking</a></li>	  
-      <li><a href="#8">Bomber ranking</a></li>	  
+      <li><a href="#8">Sniper ranking</a></li>	  
+      <li><a href="#9">Capture ranking</a></li>	  
+      <li><a href="#9">Attack ranking</a></li>	  
+      <li><a href="#9">Defense ranking</a></li>	  
     </ul>\
 """
 
@@ -386,7 +476,9 @@ def main():
 	favorite_weapons()
 	he_ranking()
 	sr8_ranking()
-
+	capture_ranking()
+	attack_ranking()
+	defense_ranking()
 	db_conn.close()
 
 	print """\

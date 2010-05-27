@@ -292,6 +292,44 @@ order by lower(fragger) asc, count(*) desc
 """ % bar_str
 	print "    </table>"
 
+#
+def he_ranking():
+	global db_conn
+	print """\
+    <a name="7"><h2>Bomber ranking</h2></a>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select fragger, count(*) as frags 
+from frags 
+where weapon = "UT_MOD_HEGRENADE"
+group by lower(fragger)
+order by count(*) desc, lower(fragger) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
+#
+def sr8_ranking():
+	global db_conn
+	print """\
+    <a name="8"><h2>Sniper ranking</h2></a>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select fragger, count(*) as frags 
+from frags 
+where weapon = "UT_MOD_SR8"
+group by lower(fragger)
+order by count(*) desc, lower(fragger) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
 # Main function
 def main():
 	global db_conn
@@ -335,6 +373,8 @@ def main():
       <li><a href="#4">Frag-based ranking</a></li>
       <li><a href="#5">Presence-based ranking</a></li>
       <li><a href="#6">Favorite weapons per player</a></li>	  
+      <li><a href="#7">Bomber ranking</a></li>	  
+      <li><a href="#8">Bomber ranking</a></li>	  
     </ul>\
 """
 
@@ -342,9 +382,10 @@ def main():
 	death_repartition()
 	fdratio_ranking()
 	frag_ranking()
-	favorite_weapons()
-	
 	#presence_ranking() # Buggued!
+	favorite_weapons()
+	he_ranking()
+	sr8_ranking()
 
 	db_conn.close()
 

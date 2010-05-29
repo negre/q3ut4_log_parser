@@ -68,12 +68,16 @@ def parse_log(logpath):
 		m = playerquits_prog.match(logline)
 		if (m):
 			time = int(m.group(1))*60 + int(m.group(2))
-			# Update the games table
-			db_conn.execute(
-				'''update games set stop=? where player = ? and stop = -1''',
-				(time, idd[m.group(3)]))
-			# And the players id dictionary
-			del idd[m.group(3)]
+			try:
+				# Update the games table
+				db_conn.execute(
+					'''update games set stop=? where player = ? and stop = -1''',
+					(time, idd[m.group(3)]))
+				# And the players id dictionary
+				del idd[m.group(3)]
+			except KeyError:
+				pass # Somehow, somebody disconnected without begin there in the
+				     # first place, ignore it
 			continue
 
 		m = endgame_prog.match(logline)

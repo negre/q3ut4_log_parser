@@ -287,7 +287,7 @@ order by sum(stop-start) desc
 		hours = int(row[1]) / 3600
 		minutes = (int(row[1]) - hours*3600) / 60
 		seconds = (int(row[1]) - minutes*60) % 60
-		print "      <li>%s (%i:%i:%i)</li>" % (row[0], hours, minutes, seconds)
+		print "      <li>%s (%i:%.2i:%.2i)</li>" % (row[0], hours, minutes, seconds)
 	print "    </ol>"
 
 # 

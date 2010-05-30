@@ -476,7 +476,7 @@ def main():
 	death_repartition()
 	fdratio_ranking()
 	frag_ranking()
-	#presence_ranking() # Buggued!
+	presence_ranking()
 	favorite_weapons()
 	he_ranking()
 	sr8_ranking()

@@ -11,11 +11,13 @@ import sys
 # Patterns
 frag_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Kill: [0-9]+ [0-9]+ [0-9]+: (?!<world>)(.*) killed (.*) by (?!MOD_CHANGE_TEAM$|MOD_FALLING$|MOD_WATER$|MOD_LAVA$|UT_MOD_BLED$|UT_MOD_FLAG$)(.*)$")
 playerjoins_prog = re.compile(r'^ *([0-9]+):([0-9]+) ClientUserinfo: ([0-9]+) (.*)$')
+playerchange_prog = re.compile(r"^ *[0-9]+:[0-9]+ ClientUserinfoChanged: ([0-9]+) (.*)$")
 playerquits_prog = re.compile(r"^ *([0-9]+):([0-9]+) ClientDisconnect: ([0-9]+)$")
 endgame_prog = re.compile(r"^ *([0-9]+):([0-9]+) ShutdownGame:$")
+initround_prog = re.compile(r"^ *([0-9]+):([0-9]+) InitRound: (.*)$")
 item_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Item: ([0-9]+) (?!<world>)(.*)$")
 flag_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Flag: ([0-9]+) ([0-9]+): (.*)$")
-
+teamscore_prog = re.compile(r"^ *([0-9]+):([0-9]+) red:([0-9]+)[ ]*blue:([0-9]+)$")
 
 # Database connection
 db_conn = None
@@ -28,6 +30,7 @@ def create_db():
 	db_conn.execute('create table frags (fragger text, fragged text, weapon text)')
 	db_conn.execute('create table games (player text, start integer, stop integer)')
 	db_conn.execute('create table flags (player text, event text)')
+	db_conn.execute('create table score (player text, score int)')
 	db_conn.commit()
 
 
@@ -37,7 +40,8 @@ def parse_log(logpath):
 
 	idd = {}
 	logf = open(logpath, 'r')
-
+	team = {}
+    
 	while 1:
 		logline = logf.readline()
 		if (not logline):
@@ -65,6 +69,14 @@ def parse_log(logpath):
 					(playername, time))
 			continue
 
+		m = playerchange_prog.match(logline)
+		if (m):
+			playerinfos = re.split(r"\\", m.group(2))
+			teamNb = int(playerinfos[playerinfos.index('t')+1])
+			name = playerinfos[playerinfos.index('n')+1]
+			team[m.group(1)] = teamNb
+			continue
+		
 		m = playerquits_prog.match(logline)
 		if (m):
 			time = int(m.group(1))*60 + int(m.group(2))
@@ -75,9 +87,14 @@ def parse_log(logpath):
 					(time, idd[m.group(3)]))
 				# And the players id dictionary
 				del idd[m.group(3)]
+				del team[m.group(3)]
 			except KeyError:
 				pass # Somehow, somebody disconnected without begin there in the
 				     # first place, ignore it
+			continue
+
+		m = initround_prog.match(logline)
+		if (m):
 			continue
 
 		m = endgame_prog.match(logline)
@@ -90,6 +107,7 @@ def parse_log(logpath):
 					(time, v))
 				pass
 			idd = {}
+			team = {}
 			continue
 
 		m = item_prog.match(logline)
@@ -118,6 +136,26 @@ def parse_log(logpath):
 					'''insert into flags values (?, ?)''', 
 					(idd[m.group(1)], "CAPTURE"))
 				pass				
+			continue
+		m = teamscore_prog.match(logline)
+		if(m):
+			red_score = int(m.group(3))
+			blue_score = int(m.group(4))
+			#sys.stderr.write( 'red: ' + str(red_score) + ' blue: '+ str(blue_score) + '\n' )
+			for k,v, in team.iteritems():
+				#sys.stderr.write( str(k) + ' ' + str(v) + '\n' )
+				if( (v == 1 and red_score > blue_score)
+					or ( v == 2 and red_score < blue_score ) ):
+					# player win
+					db_conn.execute(
+						'''insert into score values(?,?)''',
+						(idd[k], 1))
+				elif( (v == 1 and red_score < blue_score)
+					  or ( v == 2 and red_score > blue_score ) ):
+					# player lose
+					db_conn.execute(
+						'''insert into score values(?,?)''',
+						(idd[k], -1))
 			continue
 	db_conn.commit()
 	logf.close()
@@ -267,7 +305,6 @@ order by count(*) desc, lower(fragger) asc
 	for row in curs:
 		print "      <li>%s (%s)</li>" % (row[0], row[1])
 	print "    </ol>"
-
 
 #
 def presence_ranking():
@@ -421,6 +458,25 @@ order by count(*) desc, lower(player) asc
 		print "      <li>%s (%s)</li>" % (row[0], row[1])
 	print "    </ol>"
 
+def score_ranking():
+	global db_conn
+	print """\
+    <a name="12"><h2>Score ranking</h2></a>
+	<paragraph> Round won = +1, round lost = -1 </paragraph>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select player, sum(score) as score
+from score
+group by lower(player)
+order by score desc, lower(player) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
+
+
 # Main function
 def main():
 	global db_conn
@@ -458,20 +514,24 @@ def main():
     <h1>Urban Terror statistics webpage</h1>
     <hr>
     <ul>Available stats:
+      <li><a href="#12">Score ranking</a></li>	  
+      <li><a href="#9">Capture ranking</a></li>	  
+      <li><a href="#10">Attack ranking</a></li>	  
+      <li><a href="#11">Defense ranking</a></li>	  
+      <li><a href="#3">Frags/Deaths ratio-based ranking</a></li>
       <li><a href="#1">Frags repartition per player</a></li>
       <li><a href="#2">Deaths repartition per player</a></li>
-      <li><a href="#3">Frags/Deaths ratio-based ranking</a></li>
       <li><a href="#4">Frag-based ranking</a></li>
       <li><a href="#5">Presence-based ranking</a></li>
       <li><a href="#6">Favorite weapons per player</a></li>	  
       <li><a href="#7">Bomber ranking</a></li>	  
       <li><a href="#8">Sniper ranking</a></li>	  
-      <li><a href="#9">Capture ranking</a></li>	  
-      <li><a href="#9">Attack ranking</a></li>	  
-      <li><a href="#9">Defense ranking</a></li>	  
     </ul>\
 """
-
+	score_ranking()
+	capture_ranking()
+	attack_ranking()
+	defense_ranking()
 	frags_repartition()
 	death_repartition()
 	fdratio_ranking()
@@ -480,9 +540,7 @@ def main():
 	favorite_weapons()
 	he_ranking()
 	sr8_ranking()
-	capture_ranking()
-	attack_ranking()
-	defense_ranking()
+
 	db_conn.close()
 
 	print """\

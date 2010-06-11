@@ -462,18 +462,34 @@ def score_ranking():
 	global db_conn
 	print """\
     <a name="12"><h2>Score ranking</h2></a>
-	<paragraph> Round won = +1, round lost = -1 </paragraph>
     <ol>\
 """
 	curs = db_conn.cursor()
 	curs.execute('''
-select player, sum(score) as score
-from score
-group by lower(player)
-order by score desc, lower(player) asc
+select player, COALESCE(win,0), COALESCE(lost,0), COALESCE(win,0) - COALESCE(lost,0)  as score
+from
+score
+left outer join
+(
+  select player as player1, count(*) as win
+  from score
+  where score > 0
+  group by lower(player)
+) t1
+on score.player=t1.player1
+left outer join
+(
+  select player as player2, count(*) as lost
+  from score
+  where score < 0
+  group by lower(player)
+) t2
+on score.player = t2.player2
+group by lower(player1)
+order by score desc, lower(player1) asc
 ''')
 	for row in curs:
-		print "      <li>%s (%s)</li>" % (row[0], row[1])
+		print "      <li>%s : %s victories - %s defeats = <b>%s</b></li>" % (row[0], row[1], row[2], row[3])
 	print "    </ol>"
 
 

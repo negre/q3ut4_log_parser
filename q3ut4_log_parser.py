@@ -18,6 +18,7 @@ initround_prog = re.compile(r"^ *([0-9]+):([0-9]+) InitRound: (.*)$")
 item_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Item: ([0-9]+) (?!<world>)(.*)$")
 flag_prog = re.compile(r"^ *[0-9]+:[0-9]{2} Flag: ([0-9]+) ([0-9]+): (.*)$")
 teamscore_prog = re.compile(r"^ *([0-9]+):([0-9]+) red:([0-9]+)[ ]*blue:([0-9]+)$")
+chat_prog = re.compile(r"^ *[0-9]+:[0-9]{2} (say|sayteam): [0:9]+ (?!<world>)(.*): (.*)$")
 
 # Database connection
 db_conn = None
@@ -31,6 +32,7 @@ def create_db():
 	db_conn.execute('create table games (player text, start integer, stop integer)')
 	db_conn.execute('create table flags (player text, event text)')
 	db_conn.execute('create table score (player text, score int)')
+	db_conn.execute('create table chats (player text, phrase text)')	
 	db_conn.commit()
 
 
@@ -157,6 +159,13 @@ def parse_log(logpath):
 						'''insert into score values(?,?)''',
 						(idd[k], -1))
 			continue
+		m = chat_prog.match(logline)
+		if(m):
+			#print(m.group(2), m.group(3))
+			db_conn.execute(
+					'''insert into chats values (?, ?)''',
+					(m.group(2), m.group(3)))
+			continue
 	db_conn.commit()
 	logf.close()
 
@@ -164,7 +173,7 @@ def parse_log(logpath):
 # 
 def frags_repartition():
 	global db_conn
-	print "    <a name=\"1\"><h2>Frags repartition per player</h2></a>"
+	print "    <a name=\"11\"><h2>Frags repartition per player</h2></a>"
 	curs = db_conn.cursor()
 	curs.execute('''
 select fragger, fragged, count(*) as frags 
@@ -203,7 +212,7 @@ order by lower(fragger) asc, count(*) desc
 def death_repartition():
 	global db_conn
 	print """\
-    <a name=\"2\"><h2>Deaths repartition per player</h2></a>
+    <a name=\"12\"><h2>Deaths repartition per player</h2></a>
     <table>
 """
 	curs = db_conn.cursor()
@@ -244,7 +253,7 @@ order by lower(fragged) asc, count(*) desc
 def fdratio_ranking():
 	global db_conn
 	print """\
-    <a name="3"><h2>Frag/death ratio-based ranking</h2></a>
+    <a name="7"><h2>Frag/death ratio-based ranking</h2></a>
     <ol>\
 """
 	players_curs = db_conn.cursor()
@@ -291,7 +300,7 @@ where lower(fragged) = lower(?)
 def frag_ranking():
 	global db_conn
 	print """\
-    <a name="4"><h2>Frag-based ranking</h2></a>
+    <a name="8"><h2>Frag-based ranking</h2></a>
     <ol>\
 """
 	curs = db_conn.cursor()
@@ -310,7 +319,7 @@ order by count(*) desc, lower(fragger) asc
 def presence_ranking():
 	global db_conn
 	print """\
-    <a name="5"><h2>Presence-based ranking</h2></a>
+    <a name="9"><h2>Presence-based ranking</h2></a>
     <ol>\
 """
 	curs = db_conn.cursor()
@@ -330,7 +339,7 @@ order by sum(stop-start) desc
 # 
 def favorite_weapons():
 	global db_conn
-	print "    <a name=\"6\"><h2>Favorite weapons per player</h2></a>"
+	print "    <a name=\"13\"><h2>Favorite weapons per player</h2></a>"
 	curs = db_conn.cursor()
 	curs.execute('''
 select fragger, weapon, count(*) as frags 
@@ -368,7 +377,7 @@ order by lower(fragger) asc, count(*) desc
 def he_ranking():
 	global db_conn
 	print """\
-    <a name="7"><h2>Bomber ranking</h2></a>
+    <a name="5"><h2>Bomber ranking</h2></a>
     <ol>\
 """
 	curs = db_conn.cursor()
@@ -387,7 +396,7 @@ order by count(*) desc, lower(fragger) asc
 def sniper_ranking():
 	global db_conn
 	print """\
-    <a name="8"><h2>Sniper ranking</h2></a>
+    <a name="6"><h2>Sniper ranking</h2></a>
     <ol>\
 """
 	curs = db_conn.cursor()
@@ -405,7 +414,7 @@ order by count(*) desc, lower(fragger) asc
 def capture_ranking():
 	global db_conn
 	print """\
-    <a name="9"><h2>Capture ranking</h2></a>
+    <a name="2"><h2>Capture ranking</h2></a>
     <ol>\
 """
 	curs = db_conn.cursor()
@@ -423,7 +432,7 @@ order by count(*) desc, lower(player) asc
 def attack_ranking():
 	global db_conn
 	print """\
-    <a name="10"><h2>Attack ranking</h2></a>
+    <a name="3"><h2>Attack ranking</h2></a>
 	<paragraph> Number of flags catched </paragraph>
     <ol>\
 """
@@ -442,7 +451,7 @@ order by count(*) desc, lower(player) asc
 def defense_ranking():
 	global db_conn
 	print """\
-    <a name="11"><h2>Defense ranking</h2></a>
+    <a name="4"><h2>Defense ranking</h2></a>
 	<paragraph> Number of flags returned </paragraph>
     <ol>\
 """
@@ -461,7 +470,7 @@ order by count(*) desc, lower(player) asc
 def score_ranking():
 	global db_conn
 	print """\
-    <a name="12"><h2>Score ranking</h2></a>
+    <a name="1"><h2>Score ranking</h2></a>
     <ol>\
 """
 	curs = db_conn.cursor()
@@ -492,6 +501,22 @@ order by score desc, lower(player1) asc
 		print "      <li>%s : %s victories - %s defeats = <b>%s</b></li>" % (row[0], row[1], row[2], row[3])
 	print "    </ol>"
 
+def chat_ranking():
+	global db_conn
+	print """\
+    <a name="10"><h2>Chat ranking</h2></a>
+    <ol>\
+"""
+	curs = db_conn.cursor()
+	curs.execute('''
+select player, count(*) as chats
+from chats
+group by lower(player)
+order by count(*) desc, lower(player) asc
+''')
+	for row in curs:
+		print "      <li>%s (%s)</li>" % (row[0], row[1])
+	print "    </ol>"
 
 # Main function
 def main():
@@ -530,18 +555,19 @@ def main():
     <h1>Urban Terror statistics webpage</h1>
     <hr>
     <ul>Available stats:
-      <li><a href="#12">Score ranking</a></li>	  
-      <li><a href="#9">Capture ranking</a></li>	  
-      <li><a href="#10">Attack ranking</a></li>	  
-      <li><a href="#11">Defense ranking</a></li>	  
-      <li><a href="#3">Frags/Deaths ratio-based ranking</a></li>
-      <li><a href="#1">Frags repartition per player</a></li>
-      <li><a href="#2">Deaths repartition per player</a></li>
-      <li><a href="#4">Frag-based ranking</a></li>
-      <li><a href="#5">Presence-based ranking</a></li>
-      <li><a href="#6">Favorite weapons per player</a></li>	  
-      <li><a href="#7">Bomber ranking</a></li>	  
-      <li><a href="#8">Sniper ranking</a></li>	  
+      <li><a href="#1">Score ranking</a></li>	  
+      <li><a href="#2">Capture ranking</a></li>	  
+      <li><a href="#3">Attack ranking</a></li>	  
+      <li><a href="#4">Defense ranking</a></li>	  
+      <li><a href="#5">Bomber ranking</a></li>	  
+      <li><a href="#6">Sniper ranking</a></li>	  
+      <li><a href="#7">Frags/Deaths ratio-based ranking</a></li>
+      <li><a href="#8">Frag-based ranking</a></li>
+      <li><a href="#9">Presence-based ranking</a></li>
+      <li><a href="#10">Chat ranking</a></li>
+      <li><a href="#11">Frags repartition per player</a></li>
+      <li><a href="#12">Deaths repartition per player</a></li>
+      <li><a href="#13">Favorite weapons per player</a></li>	  
     </ul>\
 """
 	score_ranking()
@@ -553,6 +579,7 @@ def main():
 	fdratio_ranking()
 	frag_ranking()
 	presence_ranking()
+	chat_ranking()
 	frags_repartition()
 	death_repartition()
 	favorite_weapons()

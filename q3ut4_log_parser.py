@@ -384,7 +384,7 @@ order by count(*) desc, lower(fragger) asc
 	print "    </ol>"
 
 #
-def sr8_ranking():
+def sniper_ranking():
 	global db_conn
 	print """\
     <a name="8"><h2>Sniper ranking</h2></a>
@@ -394,7 +394,7 @@ def sr8_ranking():
 	curs.execute('''
 select fragger, count(*) as frags 
 from frags 
-where weapon = "UT_MOD_SR8"
+where weapon = "UT_MOD_SR8" or weapon = "UT_MOD_PSG1"
 group by lower(fragger)
 order by count(*) desc, lower(fragger) asc
 ''')
@@ -548,14 +548,14 @@ def main():
 	capture_ranking()
 	attack_ranking()
 	defense_ranking()
-	frags_repartition()
-	death_repartition()
+	he_ranking()
+	sniper_ranking()
 	fdratio_ranking()
 	frag_ranking()
 	presence_ranking()
+	frags_repartition()
+	death_repartition()
 	favorite_weapons()
-	he_ranking()
-	sr8_ranking()
 
 	db_conn.close()
 

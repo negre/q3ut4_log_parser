@@ -32,7 +32,9 @@ def create_db():
 	db_conn.execute('create table games (player text, start integer, stop integer)')
 	db_conn.execute('create table flags (player text, event text)')
 	db_conn.execute('create table score (player text, score int)')
-	db_conn.execute('create table chats (player text, phrase text)')	
+	db_conn.execute('create table chats (player text, phrase text)')
+	db_conn.execute('create table rounds (id int, winner text)')
+	db_conn.execute('create table teams (round_id int, player text, color text)')
 	db_conn.commit()
 
 
@@ -43,6 +45,7 @@ def parse_log(logpath):
 	idd = {}
 	logf = open(logpath, 'r')
 	team = {}
+	round_id = 0;
     
 	while 1:
 		logline = logf.readline()
@@ -97,6 +100,8 @@ def parse_log(logpath):
 
 		m = initround_prog.match(logline)
 		if (m):
+			round_id = round_id + 1
+			db_conn.execute('''insert into rounds values(?, ?)''', (round_id,''))
 			continue
 
 		m = endgame_prog.match(logline)
@@ -144,7 +149,23 @@ def parse_log(logpath):
 			red_score = int(m.group(3))
 			blue_score = int(m.group(4))
 			#sys.stderr.write( 'red: ' + str(red_score) + ' blue: '+ str(blue_score) + '\n' )
+
+			winner = ''
+			if red_score > blue_score:
+				winner = 'RED'
+			if blue_score > red_score:
+				winner = 'BLUE'
+			db_conn.execute('''update rounds set winner=? where id = ?''', (winner, round_id))
+			
 			for k,v, in team.iteritems():
+				player = idd[k]
+				color = ''
+				if v==1:
+					color = 'RED'
+				if v==2:
+					color = 'BLUE'
+				db_conn.execute('''insert into teams values(?,?,?)''', (player, round_id, color))
+				
 				#sys.stderr.write( str(k) + ' ' + str(v) + '\n' )
 				if( (v == 1 and red_score > blue_score)
 					or ( v == 2 and red_score < blue_score ) ):
@@ -200,7 +221,7 @@ order by sum(stop-start) desc
 	db_conn.execute('''delete from flags where player not in (select player from games)''')
 	db_conn.execute('''delete from score where player not in (select player from games)''')
 	db_conn.execute('''delete from chats where player not in (select player from games)''')
-	
+	db_conn.execute('''delete from teams where player not in (select player from games)''')
 	
 	db_conn.commit()
 	
@@ -556,6 +577,11 @@ order by count(*) desc, lower(player) asc
 	for row in curs:
 		print "      <li>%s (%s)</li>" % (row[0], row[1])
 	print "    </ol>"
+	
+def best_teammates():
+	global db_conn
+	print "    <a name=\"14\"><h2>Best teammates per player</h2></a>"
+	curs = db_conn.cursor()
 
 # Main function
 def main():
@@ -608,7 +634,7 @@ def main():
       <li><a href="#10">Chat ranking</a></li>
       <li><a href="#11">Frags repartition per player</a></li>
       <li><a href="#12">Deaths repartition per player</a></li>
-      <li><a href="#13">Favorite weapons per player</a></li>	  
+      <li><a href="#13">Favorite weapons per player</a></li>
     </ul>\
 """
 	score_ranking()

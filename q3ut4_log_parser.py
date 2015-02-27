@@ -171,6 +171,7 @@ def parse_log(logpath):
 
 def filter_db( ratio ):
 	global db_conn
+
 	curs = db_conn.cursor()
 	curs.execute('''
 select player, sum(stop-start) as presence 
@@ -193,8 +194,16 @@ order by sum(stop-start) desc
 			db_conn.execute('''delete from flags where player = (?)''', (pt[0],))
 			db_conn.execute('''delete from score where player = (?)''', (pt[0],))
 			db_conn.execute('''delete from chats where player = (?)''', (pt[0],))
+
+	db_conn.execute('''delete from frags where fragger not in (select player from games)
+	                                           or fragged not in (select player from games)''')
+	db_conn.execute('''delete from flags where player not in (select player from games)''')
+	db_conn.execute('''delete from score where player not in (select player from games)''')
+	db_conn.execute('''delete from chats where player not in (select player from games)''')
+	
+	
 	db_conn.commit()
-			
+	
 	#player, max_time = playtime[0]	
 	#sys.stderr.write(player + ' ' + str(max_time)+'\n')
 	
@@ -207,7 +216,7 @@ def frags_repartition():
 	curs = db_conn.cursor()
 	curs.execute('''
 select fragger, fragged, count(*) as frags 
-from frags 
+from frags
 group by lower(fragger), lower(fragged) 
 order by lower(fragger) asc, count(*) desc
 ''')

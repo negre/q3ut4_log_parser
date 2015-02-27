@@ -169,6 +169,36 @@ def parse_log(logpath):
 	db_conn.commit()
 	logf.close()
 
+def filter_db( ratio ):
+	global db_conn
+	curs = db_conn.cursor()
+	curs.execute('''
+select player, sum(stop-start) as presence 
+from games
+group by lower(player)
+order by sum(stop-start) desc
+''')
+	playtime = []
+	
+	for pt in curs:
+		playtime.append(pt)
+		
+	max_time = playtime[0][1]
+	
+	for pt in playtime:
+		if pt[1] < ratio * max_time:
+			sys.stderr.write(pt[0]+' removed from database\n')
+			db_conn.execute('''delete from frags where fragger = (?)''', (pt[0],))
+			db_conn.execute('''delete from games where player = (?)''', (pt[0],))
+			db_conn.execute('''delete from flags where player = (?)''', (pt[0],))
+			db_conn.execute('''delete from score where player = (?)''', (pt[0],))
+			db_conn.execute('''delete from chats where player = (?)''', (pt[0],))
+	db_conn.commit()
+			
+	#player, max_time = playtime[0]	
+	#sys.stderr.write(player + ' ' + str(max_time)+'\n')
+	
+			
 
 # 
 def frags_repartition():
@@ -533,7 +563,9 @@ def main():
 			parse_log(logfpath)
 	else:
 		parse_log(sys.argv[1])
-
+	
+	filter_db(0.05)
+	
 	print """\
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en-US">

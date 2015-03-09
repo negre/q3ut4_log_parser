@@ -33,7 +33,7 @@ def create_db():
 	db_conn.execute('create table flags (player text, event text)')
 	db_conn.execute('create table score (player text, score int)')
 	db_conn.execute('create table chats (player text, phrase text)')
-	db_conn.execute('create table rounds (id int, winner text)')
+	db_conn.execute('create table rounds (id int, winner text, red_score int, blue_score int)')
 	db_conn.execute('create table teams (round_id int, player text, color text)')
 	db_conn.commit()
 
@@ -101,7 +101,7 @@ def parse_log(logpath):
 		m = initround_prog.match(logline)
 		if (m):
 			round_id = round_id + 1
-			db_conn.execute('''insert into rounds values(?, ?)''', (round_id,''))
+			db_conn.execute('''insert into rounds values(?, ?, ?, ?)''', (round_id,'', 0, 0))
 			continue
 
 		m = endgame_prog.match(logline)
@@ -155,7 +155,7 @@ def parse_log(logpath):
 				winner = 'RED'
 			if blue_score > red_score:
 				winner = 'BLUE'
-			db_conn.execute('''update rounds set winner=? where id = ?''', (winner, round_id))
+			db_conn.execute('''update rounds set winner=?, red_score=?, blue_score=? where id = ?''', (winner, red_score, blue_score, round_id))
 			
 			for k,v, in team.iteritems():
 				player = idd[k]
@@ -164,9 +164,9 @@ def parse_log(logpath):
 					color = 'RED'
 				if v==2:
 					color = 'BLUE'
-				db_conn.execute('''insert into teams values(?,?,?)''', (player, round_id, color))
+				db_conn.execute('''insert into teams values(?,?,?)''', (round_id, player, color))
 				
-				#sys.stderr.write( str(k) + ' ' + str(v) + '\n' )
+				#sys.stderr.write( player + ' ' + str(round_id) + ' ' + color + '\n' )
 				if( (v == 1 and red_score > blue_score)
 					or ( v == 2 and red_score < blue_score ) ):
 					# player win
@@ -580,8 +580,73 @@ order by count(*) desc, lower(player) asc
 	
 def best_teammates():
 	global db_conn
-	print "    <a name=\"14\"><h2>Best teammates per player</h2></a>"
+	print """\
+    <a name=\"14\"><h2>Best teammates per player</h2></a>
+	<ol>\
+"""
 	curs = db_conn.cursor()
+	curs.execute('''\
+SELECT DISTINCT player as player
+FROM teams
+ORDER BY player ASC
+''')
+	players = []
+	for row in curs:
+		players.append(row[0])
+
+	for player in players:
+		print "<h3>%s :</h3>" % player
+		print "<table>"
+		curs.execute('''
+SELECT name1, teamate, oponent
+FROM
+(
+  SELECT player2 as name1, count(*) as teamate
+  FROM
+  (
+    SELECT player as name11, color, round_id
+    FROM teams
+    WHERE player=\"%s\" AND color!=\"\"
+  ) t1
+  LEFT OUTER JOIN
+  (
+    SELECT player as player2, color, round_id
+    FROM teams
+    WHERE player!=\"%s\" AND color!=\"\"
+  ) t2
+  ON t1.color=t2.color AND t1.round_id = t2.round_id
+  GROUP BY LOWER(player2)
+  ORDER BY count(*) DESC, LOWER(player2) ASC
+) tt1
+LEFT OUTER JOIN
+(
+  SELECT player2 as name2, count(*) as oponent
+  FROM
+  (
+    SELECT player as player1, color, round_id
+    FROM teams
+    WHERE player=\"%s\" AND color!=\"\"
+  ) t1
+  LEFT OUTER JOIN
+  (
+    SELECT player as player2, color, round_id
+    FROM teams
+    WHERE player!=\"%s\" AND color!=\"\"
+  ) t2
+  ON t1.color!=t2.color AND t1.round_id = t2.round_id
+  GROUP BY LOWER(player2)
+  ORDER BY count(*) DESC, LOWER(name2) ASC
+) tt2
+ON tt1.name1=tt2.name2
+''' % (player, player, player, player))
+		for row in curs:
+			print """\
+<tr>
+<td style="width: 180px;">%s : </td>
+<td> %s </td>
+<td> %s </td>
+</tr>""" % (row[0], row[1], row[2])
+	
 
 # Main function
 def main():
@@ -650,7 +715,7 @@ def main():
 	frags_repartition()
 	death_repartition()
 	favorite_weapons()
-
+	best_teammates()
 	db_conn.close()
 
 	print """\
